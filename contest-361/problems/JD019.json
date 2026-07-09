@@ -1,0 +1,43 @@
+{
+  "id": 7310,
+  "display_id": "JD019",
+  "title": "杂货铺",
+  "description": "<p>山脚杂货铺有5种干粮，编号1到5，单价分别是4.00、4.50、5.00、2.00、1.50文。赵晴儿报了干粮编号和要买的数量，掌柜让她自己算总价。</p>",
+  "input_description": "<p>一行，两个整数：干粮编号X和数量Y。</p>",
+  "output_description": "<p>输出 `Total: R$ ` 后跟总价，保留两位小数。</p>",
+  "samples": [
+    {
+      "input": "3 2",
+      "output": "Total: R$ 10.00"
+    }
+  ],
+  "hint": "<p>用数组或条件判断存储5种单价，查表后乘以数量。</p><p><a href=\"https://www.acwing.com/problem/content/662/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 660 | JD019 | 第2章 歧路逢生",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

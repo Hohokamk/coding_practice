@@ -1,0 +1,43 @@
+{
+  "id": 7373,
+  "display_id": "JD082",
+  "title": "比剑取大",
+  "description": "<p>兵器库里，赵晴儿和李少白各自挑了一柄剑。赵晴儿的剑重x斤，李少白的剑重y斤。</p><p>赵晴儿说：&quot;我们总要比谁的剑更重，每次都手算太麻烦。写一个函数，传入两个数，返回较大的那个。以后比试直接调用就行。&quot;</p><p>请帮他们实现这个函数。</p>",
+  "input_description": "<p>一行，两个整数x和y。</p>",
+  "output_description": "<p>输出最大值。</p>",
+  "samples": [
+    {
+      "input": "3 5",
+      "output": "5"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/807/\" target=\"_blank\">原题链接</a></p><p>函数内用 if 比较或三元表达式。</p>",
+  "source": "JD | JD082 | 第7章 以招创招",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

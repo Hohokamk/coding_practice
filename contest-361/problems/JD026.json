@@ -1,0 +1,47 @@
+{
+  "id": 7317,
+  "display_id": "JD026",
+  "title": "木棍辨形",
+  "description": "<p>梁嘉峰递来三根木棍：「先判断能不能拼成三角形。能的话，再判断是直角、锐角还是钝角三角形，以及是否等边或等腰。」判断依据：最长边的平方与另外两边平方和的关系。</p>",
+  "input_description": "<p>一行，三个浮点数，表示三边长度。</p>",
+  "output_description": "<p>不能构成三角形输出 <code>Not a triangle</code>；能构成则按以下规则输出（<b>每种满足的条件输出一行</b>）：</p><ol><li>先判断角度类型：输出 <code>Right</code>（直角）、<code>Acute</code>（锐角）或 <code>Obtuse</code>（钝角）之一。</li><li>再判断边长类型：若三边相等输出 <code>Equilateral</code>（等边），若恰好两边相等输出 <code>Isosceles</code>（等腰），否则不输出。</li></ol><p>注意：一个三角形可能同时属于多个类型，同一类型的判断用 <code>if</code> 而不是 <code>elif</code> 才能多行输出。</p>",
+  "samples": [
+    {
+      "input": "6.0 4.0 2.0",
+      "output": "Not a triangle"
+    },
+    {
+      "input": "5.0 5.0 5.0",
+      "output": "Acute\nEquilateral"
+    }
+  ],
+  "hint": "<p>先验证两边之和大于第三边。若不能构成三角形则直接输出 <code>Not a triangle</code> 并结束。</p><p>能构成三角形时，角度类型和边长类型分别用独立的 <code>if</code> 判断（不要用 <code>elif</code> 串起来），以确保等边/等腰三角形能输出两行。</p><p>边长已从小到大排列，第三个数即最长边。</p><p><a href=\"https://www.acwing.com/problem/content/668/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 666 | JD026 | 第2章 歧路逢生",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

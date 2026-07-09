@@ -1,0 +1,43 @@
+{
+  "id": 7328,
+  "display_id": "JD037",
+  "title": "数链连珠",
+  "description": "<p>梁嘉峰写下了一个起始整数A，又在第二行写了一串数。第二行里第一个正数就是N。请算出从A开始的N个连续整数的和。</p>",
+  "input_description": "<p>第一行：整数A。第二行：若干整数，第一个大于0的数才是N。</p>",
+  "output_description": "<p>从A开始N个连续整数之和。</p>",
+  "samples": [
+    {
+      "input": "3\n-5 0 -3 4 -1",
+      "output": "18"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/725/\" target=\"_blank\">原题链接</a></p><p>A固定，第二行跳过负数和零找N。从A开始循环N次累加。</p>",
+  "source": "AcWing ??? | JD037 | 第3章 千回百转",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

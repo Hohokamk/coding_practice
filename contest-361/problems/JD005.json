@@ -1,0 +1,43 @@
+{
+  "id": 7296,
+  "display_id": "JD005",
+  "title": "比武台",
+  "description": "<p>山门内是一片圆形的比武台。赵晴儿指着地面：「半径是r，算算它的面积。」π取3.14159。</p>",
+  "input_description": "<p>一个浮点数r，表示半径。</p>",
+  "output_description": "<p>输出 `A=` 后跟面积，保留4位小数。</p>",
+  "samples": [
+    {
+      "input": "2.00",
+      "output": "A=12.5664"
+    }
+  ],
+  "hint": "<p>面积 = 3.14159 × r × r，注意浮点数运算和格式化输出。</p><p><a href=\"https://www.acwing.com/problem/content/606/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 604 | JD005 | 第1章 持剑叩门",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

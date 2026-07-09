@@ -1,0 +1,43 @@
+{
+  "id": 7417,
+  "display_id": "JD126",
+  "title": "合围归阵",
+  "description": "<p>梁嘉峰在地上画了一堆区间，有些重叠，有些相邻。&quot;把这些区间合并——有交集的归为一组，最后数一数有几组。&quot;</p><p>赵晴儿蹲下来看了一会儿：&quot;先按左端点从小到大排。然后从左往右扫——如果当前区间的左端点在前一个区间内，说明它们重叠，合并；否则新开一组。&quot;</p><p>&quot;合围之势，聚散有序。&quot;</p><p>给定 n 个区间，合并所有有交集的区间（端点相交也算），输出合并后的区间个数。</p>",
+  "input_description": "<p>第一行包含整数n，表示区间个数。</p><p>接下来n行，每行包含两个整数l和r，表示一个区间的左右端点。</p>",
+  "output_description": "<p>一个整数，表示合并后的区间个数。</p>",
+  "samples": [
+    {
+      "input": "5\n1 2\n2 4\n5 6\n7 8\n7 10",
+      "output": "3"
+    }
+  ],
+  "hint": "<p>按左端点排序，遍历合并：当前区间左端点 ≤ 前一个右端点则合并，否则新开。</p><p><a href=\"https://www.acwing.com/problem/content/805/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 803 | JD126",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

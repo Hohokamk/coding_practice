@@ -1,0 +1,43 @@
+{
+  "id": 7311,
+  "display_id": "JD020",
+  "title": "内力分级",
+  "description": "<p>宗门把弟子的内力值分成四个等级：[0,25]是入门，(25,50]是初级，(50,75]是中级，(75,100]是高级。超出100则不在评级范围内。李少白测出一名弟子的内力值，需要判断他属于哪个等级。</p>",
+  "input_description": "<p>一个浮点数，表示内力值。</p>",
+  "output_description": "<p>输出对应区间的名称，或 `Out of interval`（超出范围）。</p>",
+  "samples": [
+    {
+      "input": "95.29",
+      "output": "Interval (75,100]"
+    }
+  ],
+  "hint": "<p>用 if-elif-else 逐一判断落在哪个区间。</p><p><a href=\"https://www.acwing.com/problem/content/661/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 659 | JD020 | 第2章 歧路逢生",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

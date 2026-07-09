@@ -1,0 +1,43 @@
+{
+  "id": 7403,
+  "display_id": "JD112",
+  "title": "叠甲千层",
+  "description": "<p>赵晴儿递来一块刻着万位数的铁牌和一个小铁块：&quot;大数乘以小数。铁牌上的每一位都要乘以小铁块的数，再处理进位——就像叠甲，一层压一层。&quot;</p><p>李少白从铁牌的最低位开始，逐位乘以小数，加上前一位的进位，本位留下余数，进位带到下一位。</p><p>给定一个大正整数 A 和一个小正整数 B，计算 A × B。A 不超过 100000 位，B 不超过 10000。</p>",
+  "input_description": "<p>两行，第一行正整数A（不超过100000位），第二行正整数B（不超过10000）。</p>",
+  "output_description": "<p>一行，A×B的结果。</p>",
+  "samples": [
+    {
+      "input": "123456\n789",
+      "output": "97406784"
+    }
+  ],
+  "hint": "<p>高精度×低精度：大数每一位乘以小数，处理进位。注意结果可能有前导零需要去掉。</p><p><a href=\"https://www.acwing.com/problem/content/795/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 793 | JD112 | 第10章 千锤百炼",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

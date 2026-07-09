@@ -1,0 +1,43 @@
+{
+  "id": 7366,
+  "display_id": "JD075",
+  "title": "寻最长词",
+  "description": "<p>赵晴儿指着古卷上的一句话：「找出最长的那个词。」</p>",
+  "input_description": "<p>一行，以&#039;.&#039;结尾的英文句子（长度不超过500）。</p>",
+  "output_description": "<p>最长的单词。</p>",
+  "samples": [
+    {
+      "input": "I am a student of Peking University.",
+      "output": "University"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/769/\" target=\"_blank\">原题链接</a></p><p>按空格分割单词（去掉末尾的&#039;.&#039;），遍历比较长度。</p>",
+  "source": "JD | JD075 | 第6章 古卷密文",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

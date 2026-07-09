@@ -1,0 +1,43 @@
+{
+  "id": 7335,
+  "display_id": "JD044",
+  "title": "翻倍剑阵",
+  "description": "<p>赵晴儿在沙盘上布下一个翻倍剑阵。她说：「以第一个数为起点，后面每个数都是前一个的两倍。内力如此，出剑亦是如此——一重更比一重强。」</p>",
+  "input_description": "<p>一个整数V。</p>",
+  "output_description": "<p>10行，格式为 `N[i] = X`。</p>",
+  "samples": [
+    {
+      "input": "6",
+      "output": "N[0] = 6\nN[1] = 12\nN[2] = 24\nN[3] = 48\nN[4] = 96\nN[5] = 192\nN[6] = 384\nN[7] = 768\nN[8] = 1536\nN[9] = 3072"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/740/\" target=\"_blank\">原题链接</a></p><p>N[0]=V，循环N[i]=N[i-1]*2。</p>",
+  "source": "JD | JD044 | 第4章 排兵布阵",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

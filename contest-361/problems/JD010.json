@@ -1,0 +1,43 @@
+{
+  "id": 7301,
+  "display_id": "JD010",
+  "title": "三令比大",
+  "description": "<p>梁嘉峰在墙上刻了三个数，转头说：「最大的那个，报给我。」</p>",
+  "input_description": "<p>一行，三个整数A、B、C，用空格隔开。</p>",
+  "output_description": "<p>输出 `Max = ` 后跟三个数中的最大值。</p>",
+  "samples": [
+    {
+      "input": "7 14 106",
+      "output": "Max = 106"
+    }
+  ],
+  "hint": "<p>用条件判断两两比较，或直接用max函数。</p><p><a href=\"https://www.acwing.com/problem/content/616/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 614 | JD010 | 第1章 持剑叩门",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

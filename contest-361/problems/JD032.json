@@ -1,0 +1,43 @@
+{
+  "id": 7323,
+  "display_id": "JD032",
+  "title": "六奇连珠",
+  "description": "<p>梁嘉峰递给李少白一个数X：「从X之后开始，找出6个连续的奇数，一个一个报给我。」</p>",
+  "input_description": "<p>一个整数X。</p>",
+  "output_description": "<p>从X之后开始的6个连续奇数，每行一个。</p>",
+  "samples": [
+    {
+      "input": "8",
+      "output": "9\n11\n13\n15\n17\n19"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/716/\" target=\"_blank\">原题链接</a></p><p>如果X是奇数，从X+2开始；如果X是偶数，从X+1开始。循环6次，每次加2。</p>",
+  "source": "AcWing ??? | JD032 | 第3章 千回百转",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

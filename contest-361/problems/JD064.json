@@ -1,0 +1,43 @@
+{
+  "id": 7355,
+  "display_id": "JD064",
+  "title": "镜像方阵",
+  "description": "<p>「此阵以主对角线为镜——镜中剑影，左右互映。」赵晴儿落下第一柄长剑，「主对角线上的剑势最强，为1；往右上和左下方逐次递减，如剑光在水面的倒影越远越淡。」</p>",
+  "input_description": "<p>多行，每行一个整数N。N=0时结束。</p>",
+  "output_description": "<p>每个N输出一个N阶矩阵，每个数字占3个字符宽度。每个矩阵后跟一个空行。</p>",
+  "samples": [
+    {
+      "input": "1\n0",
+      "output": "1"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/756/\" target=\"_blank\">原题链接</a></p><p>M[i][j] = |i-j|+1。对角线为1，离对角线越远数越大。</p>",
+  "source": "JD | JD064 | 第5章 十二宫剑阵",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

@@ -1,0 +1,43 @@
+{
+  "id": 7332,
+  "display_id": "JD041",
+  "title": "千层阵列",
+  "description": "<p>千层塔的一面墙上刻着N行M列的数字阵列，每行从1开始递增，但每逢第M个位置不写数字，写SWORD。赵晴儿让李少白按这个规律把整个阵列报出来。</p>",
+  "input_description": "<p>一行，两个整数N和M。</p>",
+  "output_description": "<p>N行，每行M个值，最后一个用SWORD代替，值之间用空格隔开。</p>",
+  "samples": [
+    {
+      "input": "7 4",
+      "output": "1 2 3 SWORD\n5 6 7 SWORD\n9 10 11 SWORD\n13 14 15 SWORD\n17 18 19 SWORD\n21 22 23 SWORD\n25 26 27 SWORD"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/717/\" target=\"_blank\">原题链接</a></p><p>嵌套循环，外层控制行，内层控制列。每行第M个位置输出SWORD。</p>",
+  "source": "AcWing ??? | JD041 | 第3章 千回百转",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

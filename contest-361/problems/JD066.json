@@ -1,0 +1,43 @@
+{
+  "id": 7357,
+  "display_id": "JD066",
+  "title": "蛇形剑阵",
+  "description": "<p>「剑阵蜿蜒如蛇，以身引气，气走周身。」赵晴儿在沙盘上画了一个n行m列的剑阵，「从左上角开始，依次填入从1到n×m的剑气。行到尽头便拐弯，似灵蛇折返。」</p>",
+  "input_description": "<p>一行，两个整数n和m。</p>",
+  "output_description": "<p>n行，每行m个整数用空格隔开。输出后跟一个空行。</p>",
+  "samples": [
+    {
+      "input": "3 3",
+      "output": "1 2 3 \n8 9 4 \n7 6 5"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/758/\" target=\"_blank\">原题链接</a></p><p>模拟蛇形遍历：右→下→左→上循环。维护四个边界。</p>",
+  "source": "JD | JD066 | 第5章 十二宫剑阵",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

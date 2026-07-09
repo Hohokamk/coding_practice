@@ -1,0 +1,43 @@
+{
+  "id": 7314,
+  "display_id": "JD023",
+  "title": "账房调薪",
+  "description": "<p>宗门账房年底调薪，按原月钱所在区间确定涨幅：0~400涨15%，400.01~800涨12%，800.01~1200涨10%，1200.01~2000涨7%，2000以上涨4%。涨幅是按整个工资乘以对应百分比，不是分段累进。</p><p>李少白拿到一名弟子的原月钱，请算出新月钱、涨了多少和涨幅百分比。</p>",
+  "input_description": "<p>一个浮点数，表示原月钱。</p>",
+  "output_description": "<p>三行：新月钱、涨了多少、涨幅百分比（整数带%号），金额保留两位小数。</p>",
+  "samples": [
+    {
+      "input": "400.00",
+      "output": "New salary: 460.00\nIncrease: 60.00\nPercentage: 15 %"
+    }
+  ],
+  "hint": "<p>用 if-elif 判断原月钱落在哪个区间，确定涨幅百分比p。涨额 = 原月钱 × p/100，新月钱 = 原月钱 + 涨额。注意400属于0~400区间（涨15%），400.01才属于400~800区间。</p><p><a href=\"https://www.acwing.com/problem/content/671/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 669 | JD023 | 第2章 歧路逢生",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

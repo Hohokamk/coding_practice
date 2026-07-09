@@ -1,0 +1,43 @@
+{
+  "id": 7371,
+  "display_id": "JD080",
+  "title": "密文跨距",
+  "description": "<p>梁嘉峰递给李少白一长段密文和两个短码S1、S2：「S1在左，S2在右，不交叉。最大间距是多少？」</p>",
+  "input_description": "<p>一行，三个字符串用逗号隔开：S,S1,S2。</p>",
+  "output_description": "<p>最大跨距。不满足条件输出-1。</p>",
+  "samples": [
+    {
+      "input": "abcd123dABdefghjsdef76ki,ab,ef",
+      "output": "16"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/780/\" target=\"_blank\">原题链接</a></p><p>从左往右找S1最后出现的位置end1，从右往左找S2最后出现的位置start2。如果end1",
+  "source": "JD | JD080 | 第6章 古卷密文",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

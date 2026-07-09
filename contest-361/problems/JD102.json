@@ -1,0 +1,43 @@
+{
+  "id": 7393,
+  "display_id": "JD102",
+  "title": "三元归序",
+  "description": "<p>兵器阁的账房先生有一本厚厚的兵器账本，每条记录记着三样东西：兵器编号x、重量y（带两位小数）、兵器名称z。</p><p>&quot;这本账太乱了，&quot;赵晴儿翻了几页就头疼，&quot;编号不按顺序，同编号的重量也乱排。&quot;</p><p>梁嘉峰说：&quot;先按编号从小到大排，编号相同的再按重量从小到大排。你可以用结构体存每条记录，放进容器里，再自定义排序规则。&quot;</p>",
+  "input_description": "<p>第一行一个整数N。接下来N行，每行两个整数和一个字符串。</p>",
+  "output_description": "<p>排序后的N条记录，每行一条。x输出整数，y输出保留两位小数的浮点数，字符串原样输出，空格隔开。</p>",
+  "samples": [
+    {
+      "input": "3\n1 2 abc\n3 4 def\n2 1 ghi",
+      "output": "1 2.00 abc\n2 1.00 ghi\n3 4.00 def"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/864/\" target=\"_blank\">原题链接</a></p><p>定义结构体存储三元组，自定义比较函数：先比x，再比y。</p>",
+  "source": "JD | JD102 | 第8章 百器图谱",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

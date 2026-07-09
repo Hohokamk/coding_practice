@@ -1,0 +1,43 @@
+{
+  "id": 7404,
+  "display_id": "JD113",
+  "title": "分金断玉",
+  "description": "<p>梁嘉峰拿起一把锉刀：&quot;大数除以小数——分金断玉，从高位一刀一刀切。&quot;</p><p>&quot;从最高位开始，&quot;赵晴儿解释，&quot;当前余数乘10加上当前位，除以除数得到商的一位，剩下的余数带到下一位。和竖式除法一模一样。&quot;</p><p>给定一个大非负整数 A 和一个小正整数 B，计算 A ÷ B 的商和余数。A 不超过 100000 位，B 不超过 10000。</p>",
+  "input_description": "<p>两行，第一行非负整数A（不超过100000位），第二行正整数B（B≠0）。</p>",
+  "output_description": "<p>两行，第一行商，第二行余数。</p>",
+  "samples": [
+    {
+      "input": "9876543210\n123",
+      "output": "80297099\n33"
+    }
+  ],
+  "hint": "<p>高精度÷低精度：从高位到低位，当前余数×10+当前位，除以B得商的一位，更新余数。</p><p><a href=\"https://www.acwing.com/problem/content/796/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 794 | JD113 | 第10章 千锤百炼",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

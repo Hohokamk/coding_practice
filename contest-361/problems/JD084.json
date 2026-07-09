@@ -1,0 +1,43 @@
+{
+  "id": 7375,
+  "display_id": "JD084",
+  "title": "双剑互易",
+  "description": "<p>梁嘉峰在教李少白一套双剑术。左右手各持一剑，攻守之间需要不断交换位置。</p><p>&quot;实战中你不能把剑放到地上再捡起来，&quot;梁嘉峰说，&quot;直接交换。写一个函数，传入两个变量的引用，在函数内部交换它们的值。&quot;</p><p>李少白提笔写下函数签名，却犯了难——C++里普通参数只传值，改不了外面的变量。</p>",
+  "input_description": "<p>一行，两个整数x和y。</p>",
+  "output_description": "<p>交换后的x和y。</p>",
+  "samples": [
+    {
+      "input": "6 26",
+      "output": "26 6"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/813/\" target=\"_blank\">原题链接</a></p><p>C++用引用参数 `void swap(int &x, int &y)`。Python中 a, b = b, a。</p>",
+  "source": "JD | JD084 | 第7章 以招创招",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

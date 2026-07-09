@@ -1,0 +1,43 @@
+{
+  "id": 7422,
+  "display_id": "JD131",
+  "title": "叠石成塔",
+  "description": "<p>梁嘉峰在墙角堆了一摞石块：&quot;栈——后进先出。只能从顶部放石块，也只能从顶部取。&quot;</p><p>赵晴儿指着石块：&quot;push是放石块到顶部，pop是取走顶部的石块，query是看看顶部那块刻着什么数。&quot;</p><p>&quot;生活中到处是栈——叠盘子、摞书、函数调用。&quot;</p><p>实现一个栈，支持push、pop、query、empty操作。</p>",
+  "input_description": "<p>若干行操作命令：push x（入栈）、pop（出栈）、query（查询栈顶）、empty（判断栈是否为空）。</p>",
+  "output_description": "<p>对每个query和empty操作输出一行结果。其中query输出栈顶元素，empty输出YES或NO。</p>",
+  "samples": [
+    {
+      "input": "10\npush 5\nquery\npush 6\npop\nquery\nempty\npop\nempty\npush 3\nquery",
+      "output": "5\n5\nNO\nYES\n3"
+    }
+  ],
+  "hint": "<p>数组模拟栈：tt指向栈顶。push: st[++tt]=x。pop: tt--。query: st[tt]。empty: 判断tt是否为0。</p><p><a href=\"https://www.acwing.com/problem/content/830/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 828 | JD131",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

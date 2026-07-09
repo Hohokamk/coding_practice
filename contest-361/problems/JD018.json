@@ -1,0 +1,43 @@
+{
+  "id": 7309,
+  "display_id": "JD018",
+  "title": "三石排序",
+  "description": "<p>梁嘉峰在地上放了三块石头，上面各刻着一个数。他说：「从小到大排好，报给我。」</p>",
+  "input_description": "<p>一行，三个整数，用空格隔开。</p>",
+  "output_description": "<p>三个数从小到大输出，空格隔开。</p>",
+  "samples": [
+    {
+      "input": "7 21 -14",
+      "output": "-14 7 21"
+    }
+  ],
+  "hint": "<p>用条件判断两两比较确定顺序，或存入数组排序。</p><p><a href=\"https://www.acwing.com/problem/content/665/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 663 | JD018 | 第2章 歧路逢生",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

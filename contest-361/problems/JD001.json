@@ -1,0 +1,38 @@
+{
+  "id": 7292,
+  "display_id": "JD001",
+  "title": "铁令求和",
+  "description": "<p>李少白第一次来到剑道宗山门前。梁嘉峰递给他两枚铁令，上面各刻着一个数。「加起来，报给我。」</p>",
+  "input_description": "<p>一行，两个整数A和B，用空格隔开。</p>",
+  "output_description": "<p>一个整数，即A+B的结果。</p>",
+  "samples": [],
+  "hint": "<p>读入两个整数，输出它们的和。最基础的输入输出练习。</p><p><a href=\"https://www.acwing.com/problem/content/1/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 1 | JD001 | 第1章 持剑叩门",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": 0,
+  "is_exam": false,
+  "test_case_manifest": null
+}

@@ -1,0 +1,43 @@
+{
+  "id": 7407,
+  "display_id": "JD116",
+  "title": "无重之最",
+  "description": "<p>梁嘉峰在沙盘上摆了一排石块，每块上刻着一个数字。他问：&quot;从这排石块中，找出最长的一段——这段里每个数字都不重复。&quot;</p><p>李少白想从头遍历每一段，但石块有十万块。赵晴儿教他：&quot;用两个指针，一左一右，框住一段区间。右指针往右扩展，遇到重复数字就收缩左指针，直到区间内没有重复。每一步都更新最大长度。&quot;</p><p>&quot;两个指针各走各的，总共只走一遍——O(n)。&quot;</p><p>给定一个长度为 n 的整数序列，找出最长的不含重复数字的连续子序列，输出其长度。</p>",
+  "input_description": "<p>第一行一个整数n。第二行n个整数（1≤n≤100000）。</p>",
+  "output_description": "<p>一行，最长连续不重复子序列的长度。</p>",
+  "samples": [
+    {
+      "input": "5\n1 2 2 3 5",
+      "output": "3"
+    }
+  ],
+  "hint": "<p>滑动窗口：右指针扩展，用哈希表判断是否重复，重复则左指针收缩。O(n)。</p><p><a href=\"https://www.acwing.com/problem/content/801/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 799 | JD116",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

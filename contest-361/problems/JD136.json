@@ -1,0 +1,43 @@
+{
+  "id": 7427,
+  "display_id": "JD136",
+  "title": "剑谱寻踪",
+  "description": "<p>赵晴儿拿着一本剑谱：&quot;在这本厚厚的剑谱里找一段特定的剑招序列——模式串在文本串中出现了几次？分别在哪里？&quot;</p><p>李少白想一个个比对，但剑谱有十万字。梁嘉峰说：&quot;KMP算法——先预处理模式串，算出每个位置的next数组（最长相等前后缀）。匹配时利用next跳转，不用回退文本指针。O(n+m)。&quot;</p><p>在文本串中查找模式串的所有出现位置。</p>",
+  "input_description": "<p>第一行一个整数n（模式串长度）。第二行模式串。第三行一个整数m（文本串长度）。第四行文本串。</p>",
+  "output_description": "<p>一行，模式串在文本串中所有出现的起始位置（从0开始），空格隔开。</p>",
+  "samples": [
+    {
+      "input": "3\naba\n5\nababa",
+      "output": "0 2"
+    }
+  ],
+  "hint": "<p>KMP：预处理next数组（最长相等前后缀），匹配时利用next跳转。</p><p><a href=\"https://www.acwing.com/problem/content/833/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 831 | JD136",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

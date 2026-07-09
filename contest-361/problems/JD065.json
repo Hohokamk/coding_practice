@@ -1,0 +1,43 @@
+{
+  "id": 7356,
+  "display_id": "JD065",
+  "title": "倍增方阵",
+  "description": "<p>「此阵每一格，剑气强度皆由剑气原点(0,0)倍增而来。」赵晴儿剑尖轻点沙盘，「位在(i,j)的剑势，强度为2的(i+j)次方。一生二，二生四，剑气倍增如潮水蔓延。」</p>",
+  "input_description": "<p>多行，每行一个整数N（0≤N≤15）。N=0时结束。</p>",
+  "output_description": "<p>每个N输出一个N阶矩阵，每行N个整数用空格隔开。每个矩阵后跟一个空行。</p>",
+  "samples": [
+    {
+      "input": "3 0",
+      "output": "1 2 4 \n2 4 8 \n4 8 16"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/757/\" target=\"_blank\">原题链接</a></p><p>M[i][j] = 2^(i+j)。用位运算 1&lt;&lt;(i+j) 或 pow函数。</p>",
+  "source": "JD | JD065 | 第5章 十二宫剑阵",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

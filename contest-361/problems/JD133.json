@@ -1,0 +1,43 @@
+{
+  "id": 7424,
+  "display_id": "JD133",
+  "title": "算筹求值",
+  "description": "<p>赵晴儿递来一个算式：&quot;3 + 4 * 2 - ( 1 + 5 )。算出结果。&quot;</p><p>梁嘉峰拿出两个盒子：&quot;数字盒和符号盒。遇到数字放数字盒。遇到符号——如果比栈顶符号优先级低，就把栈顶符号和两个数字算掉。遇到左括号直接放，遇到右括号一直算到左括号。&quot;</p><p>&quot;用两个栈——数字栈和运算符栈，按优先级处理。&quot;</p><p>给定一个包含 +、-、*、/、(、) 的表达式，求值。</p>",
+  "input_description": "<p>一行包含+、-、*、/、(、)和整数的表达式。</p>",
+  "output_description": "<p>一行，表达式的值。</p>",
+  "samples": [
+    {
+      "input": "2+3*4",
+      "output": "14"
+    }
+  ],
+  "hint": "<p>双栈法：数字栈+运算符栈。比较优先级决定是否先算栈顶。</p><p><a href=\"https://www.acwing.com/problem/content/3305/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 3302 | JD133",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

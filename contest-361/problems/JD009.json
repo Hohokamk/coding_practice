@@ -1,0 +1,43 @@
+{
+  "id": 7300,
+  "display_id": "JD009",
+  "title": "铁球体积",
+  "description": "<p>兵器库里有一颗实心铁球。李少白量出半径r，想算出它的体积。V = (4/3)πr³，π取3.14159。</p>",
+  "input_description": "<p>一个浮点数r，表示铁球的半径。</p>",
+  "output_description": "<p>输出 `VOLUME = ` 后跟体积，保留3位小数。</p>",
+  "samples": [
+    {
+      "input": "3",
+      "output": "VOLUME = 113.097"
+    }
+  ],
+  "hint": "<p>体积 = (4.0/3.0) × 3.14159 × r³，注意用浮点数除法。</p><p><a href=\"https://www.acwing.com/problem/content/614/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 612 | JD009 | 第1章 持剑叩门",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

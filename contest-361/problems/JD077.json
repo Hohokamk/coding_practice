@@ -1,0 +1,43 @@
+{
+  "id": 7368,
+  "display_id": "JD077",
+  "title": "独字寻踪",
+  "description": "<p>古卷上有些字重复出现，有些只出现一次。赵晴儿让李少白找到第一个只出现一次的字符。</p>",
+  "input_description": "<p>一行只包含小写字母的字符串。</p>",
+  "output_description": "<p>第一个只出现一次的字符，或&quot;no&quot;。</p>",
+  "samples": [
+    {
+      "input": "abaccdeff",
+      "output": "b"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/772/\" target=\"_blank\">原题链接</a></p><p>先统计每个字符出现次数，再从头遍历找第一个次数为1的。</p>",
+  "source": "JD | JD077 | 第6章 古卷密文",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

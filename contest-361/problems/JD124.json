@@ -1,0 +1,43 @@
+{
+  "id": 7415,
+  "display_id": "JD124",
+  "title": "方阵差分",
+  "description": "<p>赵晴儿在沙盘上画了一个 n 行 m 列的矩阵：&quot;我要把左上角 (x1,y1) 到右下角 (x2,y2) 这个子矩阵里每个数都加上 c。&quot;</p><p>梁嘉峰说：&quot;和一维差分一样的思路——在差分矩阵的四个角加减，最后对整个矩阵求一次二维前缀和，就还原出最终结果了。&quot;</p><p>&quot;蓄势蓄到二维，差分也能覆盖任意子矩阵。&quot;</p><p>给定一个 n×m 的整数矩阵和 q 个操作，每个操作将子矩阵的每个元素加 c。输出所有操作后的矩阵。</p>",
+  "input_description": "<p>第一行三个整数n、m和q。接下来n行每行m个整数。接下来q行每行四个整数x1、y1、x2、y2。</p>",
+  "output_description": "<p>n行，每行m个整数，表示操作后的矩阵。</p>",
+  "samples": [
+    {
+      "input": "3 4 2\n1 2 3 4\n5 6 7 8\n9 10 11 12\n1 1 2 2 1\n2 2 3 3 2",
+      "output": "2 3 3 4\n6 10 10 8\n9 12 14 12"
+    }
+  ],
+  "hint": "<p>二维差分：在四个角加减，最后求二维前缀和。</p><p><a href=\"https://www.acwing.com/problem/content/800/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 798 | JD124",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

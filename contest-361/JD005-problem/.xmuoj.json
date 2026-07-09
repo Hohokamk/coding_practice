@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "baseUrl": "http://xmuoj.com",
+  "problemId": 7296,
+  "contestId": 361,
+  "contestTitle": "2026年校外实训一之剑道试炼(02蔡炳跃班)",
+  "displayId": "JD005",
+  "title": "比武台",
+  "language": "C++",
+  "sourceFile": "main.cpp",
+  "sourceFiles": {
+    "C++": "main.cpp"
+  },
+  "createdAt": "2026-07-07T00:00:00.000Z"
+}

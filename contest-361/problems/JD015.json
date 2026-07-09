@@ -1,0 +1,43 @@
+{
+  "id": 7306,
+  "display_id": "JD015",
+  "title": "石碑之谜",
+  "description": "<p>山门前有两条路，路边各立一块石碑。赵晴儿指着石碑上的两个数说：「如果其中一个数能被另一个整除，这两块碑就是一对——走左边这条路。否则走右边。」</p><p>给定两个整数A和B，判断它们是否互为倍数关系（即A能被B整除，或B能被A整除）。</p>",
+  "input_description": "<p>一行，两个整数A和B。</p>",
+  "output_description": "<p>互为倍数输出 `Yes`，否则输出 `No`。</p>",
+  "samples": [
+    {
+      "input": "6 24",
+      "output": "Yes"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/667/\" target=\"_blank\">原题链接</a></p><p>判断 A%B==0 或 B%A==0，只要有一个成立就是倍数关系，输出Yes；否则输出No。</p>",
+  "source": "AcWing 665 | JD015 | 第2章 歧路逢生",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

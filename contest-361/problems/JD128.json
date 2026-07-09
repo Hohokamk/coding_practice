@@ -1,0 +1,43 @@
+{
+  "id": 7419,
+  "display_id": "JD128",
+  "title": "合果成堆",
+  "description": "<p>果园里有 N 堆果子，每堆重量不同。赵晴儿要把它们合并成一堆，每次只能合并两堆，消耗的能量等于两堆重量之和。</p><p>&quot;如果先合并重的，后面每次合并都要带着这堆重的走，代价越来越大。&quot;赵晴儿说，&quot;所以反过来——每次选最轻的两堆合并，这样每一步的代价都最小。&quot;</p><p>李少白想到用小根堆：&quot;每次取出堆顶（最轻的两堆），合并后放回去。总代价最小。&quot;</p><p>这就是哈夫曼树的思想。</p><p>有 N 堆果子，每次合并两堆（代价为两堆之和），求合并为一堆的最小总代价。</p>",
+  "input_description": "<p>第一行一个整数N（1≤N≤10000）。第二行N个整数，表示每堆的重量。</p>",
+  "output_description": "<p>一行，最小总代价。</p>",
+  "samples": [
+    {
+      "input": "3\n1 2 9",
+      "output": "15"
+    }
+  ],
+  "hint": "<p>小根堆：每次取最小的两个合并，结果放回堆中。O(nlogn)。</p><p><a href=\"https://www.acwing.com/problem/content/150/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 148 | JD128",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

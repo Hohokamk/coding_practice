@@ -1,0 +1,43 @@
+{
+  "id": 7330,
+  "display_id": "JD039",
+  "title": "约数寻踪",
+  "description": "<p>赵晴儿在沙盘上写下一个数N：「找出它的所有约数，从小到大列出来。」</p>",
+  "input_description": "<p>一个正整数N。</p>",
+  "output_description": "<p>每行一个约数，从小到大。</p>",
+  "samples": [
+    {
+      "input": "6",
+      "output": "1\n2\n3\n6"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/713/\" target=\"_blank\">原题链接</a></p><p>从1到N循环，如果N%i==0则i是约数。</p>",
+  "source": "AcWing ??? | JD039 | 第3章 千回百转",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

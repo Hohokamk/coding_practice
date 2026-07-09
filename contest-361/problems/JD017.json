@@ -1,0 +1,43 @@
+{
+  "id": 7308,
+  "display_id": "JD017",
+  "title": "比武时辰",
+  "description": "<p>李少白和师弟在练武场比武。他们从A时开始，到B时结束（只看整点，不看分钟）。如果B&gt;A，比武持续了B-A小时；如果B≤A，说明比武过了零点，持续了24-A+B小时；如果A=B，说明刚好持续了一整天（24小时）。</p>",
+  "input_description": "<p>一行，两个整数A和B（0≤A,B≤23）。</p>",
+  "output_description": "<p>输出一个整数，表示比武持续的小时数。</p>",
+  "samples": [
+    {
+      "input": "0 15",
+      "output": "15"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/669/\" target=\"_blank\">原题链接</a></p><p>用条件判断：如果B&gt;A，输出B-A；如果B==A，输出24；否则输出24-A+B。</p>",
+  "source": "AcWing 667 | JD017 | 第2章 歧路逢生",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

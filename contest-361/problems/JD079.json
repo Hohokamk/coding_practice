@@ -1,0 +1,43 @@
+{
+  "id": 7370,
+  "display_id": "JD079",
+  "title": "经文周期",
+  "description": "<p>赵晴儿指着一篇重复的经文：「这段文字是某个子串重复几次写成的？找出最小的重复次数。」</p>",
+  "input_description": "<p>一行字符串。</p>",
+  "output_description": "<p>对于每个输入的字符串（遇到&quot;.&quot;为止），输出一行一个整数n，表示该字符串最多由n个子串重复构成。</p>",
+  "samples": [
+    {
+      "input": "abcd\naaaa\nababab\n.",
+      "output": "1\n4\n3"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/806/\" target=\"_blank\">原题链接</a></p><p>枚举周期p（p是len的因子），检查s[0:p]重复len/p次是否等于原串。</p>",
+  "source": "JD | JD079 | 第6章 古卷密文",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

@@ -1,0 +1,43 @@
+{
+  "id": 7345,
+  "display_id": "JD054",
+  "title": "剑意之质",
+  "description": "<p>梁嘉峰在沙盘上点出几枚剑棋：「天下剑法，有些可以拆分化简，有些不可再分，乃剑意之基石。这些不可拆分的棋位——只能被1和自己整除的数——就是剑意之质。排出2到N之间所有的剑意质数。」</p>",
+  "input_description": "<p>一个整数N。</p>",
+  "output_description": "<p>输出2到N之间所有的质数，每行一个。</p>",
+  "samples": [
+    {
+      "input": "10",
+      "output": "2\n3\n5\n7"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/728/\" target=\"_blank\">原题链接</a></p><p>对每个数从2到√n试除。</p>",
+  "source": "JD | JD054 | 第4章 排兵布阵",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

@@ -1,0 +1,43 @@
+{
+  "id": 7377,
+  "display_id": "JD086",
+  "title": "剑阵复制",
+  "description": "<p>赵晴儿在沙盘上摆了一个剑阵（数组a），需要原样复制一份到另一个沙盘（数组b）上。</p><p>&quot;手抄太慢，&quot;赵晴儿说，&quot;写一个函数，把a的前size个元素复制到b对应的位置上。&quot;</p><p>李少白接过两个沙盘，发现b上原来也有数字，只需覆盖前size个位置，其余保持不变。</p>",
+  "input_description": "<p>第一行两个整数n和size（数组长度和复制个数）。第二行n个整数。</p>",
+  "output_description": "<p>复制后的数组，空格隔开。</p>",
+  "samples": [
+    {
+      "input": "3 5 2\n1 2 3\n4 5 6 7 8",
+      "output": "1 2 6 7 8"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/816/\" target=\"_blank\">原题链接</a></p><p>函数内循环，b[i] = a[i]，复制前size个元素。</p>",
+  "source": "JD | JD086 | 第7章 以招创招",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

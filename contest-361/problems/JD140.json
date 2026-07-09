@@ -1,0 +1,43 @@
+{
+  "id": 7431,
+  "display_id": "JD140",
+  "title": "三界相克",
+  "description": "<p>梁嘉峰说：&quot;A吃B，B吃C，C吃A——三种动物形成环形食物链。给你N个动物和K句话，判断哪些话是假的。&quot;</p><p>赵晴儿解释：&quot;扩展并查集——每个动物拆成三个节点，分别表示&#039;A是A&#039;、&#039;A是B的食物&#039;、&#039;A是C的食物&#039;。用模3的关系判断真假。&quot;</p><p>给定N个动物和K句话，判断假话数量。</p>",
+  "input_description": "<p>第一行两个整数N和K。接下来K行，每行两个整数x y z（x=1表示y和z同类，x=2表示y吃z）。</p>",
+  "output_description": "<p>一行，假话的数量。</p>",
+  "samples": [
+    {
+      "input": "100 7\n1 101 1\n2 1 2\n2 2 3\n2 3 3\n1 1 3\n2 3 1\n1 5 5",
+      "output": "3"
+    }
+  ],
+  "hint": "<p>扩展并查集：每个点拆成3个，模3判断关系。</p><p><a href=\"https://www.acwing.com/problem/content/242/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 240 | JD140",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

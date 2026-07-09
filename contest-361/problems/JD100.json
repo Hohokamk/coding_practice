@@ -1,0 +1,43 @@
+{
+  "id": 7391,
+  "display_id": "JD100",
+  "title": "铁链翻转",
+  "description": "<p>梁嘉峰从架子上取下一条铁链，每个环上刻着一个数字。他把铁链平铺在桌上，从头到尾是1、2、3、4、5……最后一个环上刻着-1，表示结束。</p><p>&quot;我要把这条铁链反过来，&quot;梁嘉峰说，&quot;第一个变最后一个，最后一个变第一个。但不能断开重接，只能用容器来辅助。&quot;</p><p>赵晴儿拿起一个铁盒：&quot;把铁环一个个摘下来放进盒子里——先进去的沉到底部。等全部摘完，再从盒子里取出来，顺序就反了。&quot;</p>",
+  "input_description": "<p>一行整数，以-1结尾，表示链表节点值。</p>",
+  "output_description": "<p>反转后的链表，空格隔开。</p>",
+  "samples": [
+    {
+      "input": "1 2 3 4 5 -1",
+      "output": "5 4 3 2 1"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/35/\" target=\"_blank\">原题链接</a></p><p>三指针法：prev=None, curr=head。循环：next=curr.next, curr.next=prev, prev=curr, curr=next。</p>",
+  "source": "JD | JD100 | 第8章 百器图谱",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

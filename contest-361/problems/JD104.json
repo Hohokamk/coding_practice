@@ -1,0 +1,43 @@
+{
+  "id": 7395,
+  "display_id": "JD104",
+  "title": "照妖辨品",
+  "description": "<p>梁嘉峰指着那排弟子：&quot;我不需要所有人都排好——只要知道第 K 矮的人是谁。&quot;</p><p>赵晴儿想了想：&quot;还是用刚才的方法：挑一个人站中间，矮的左、高的右。数一数左边有几个人——如果左边刚好有 K-1 个人，那中间那个就是答案。如果左边人比 K-1 多，说明答案在左边，只管左边就行。如果不够，就去右边找第 K-左-1 矮的。&quot;</p><p>&quot;所以快排是把两边都排好，快选只需要管一边。&quot;梁嘉峰点头，&quot;省了一半的力气。&quot;</p><p>给定一个长度为 n 的整数数列和一个整数 k，求数列中第 k 小的数。</p>",
+  "input_description": "<p>第一行两个整数n和k。第二行n个整数。</p>",
+  "output_description": "<p>一行，第k小的数。</p>",
+  "samples": [
+    {
+      "input": "5 3\n3 1 2 4 5",
+      "output": "3"
+    }
+  ],
+  "hint": "<p>partition 后判断 k 在左半还是右半，只递归一半。平均 O(n)。</p><p><a href=\"https://www.acwing.com/problem/content/788/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 786 | JD104 | 第9章 快剑如风",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

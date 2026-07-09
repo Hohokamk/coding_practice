@@ -1,0 +1,43 @@
+{
+  "id": 7397,
+  "display_id": "JD106",
+  "title": "逆流之数",
+  "description": "<p>弟子们排成一列，每人身上有一个编号。赵晴儿发现，有些排在前面的人编号反而比后面的大——这就是&quot;逆序对&quot;，说明队伍很乱。</p><p>&quot;逆序对越多，队伍越乱。&quot;赵晴儿说，&quot;但要一个个比太慢了。有没有 O(nlogn) 的方法？&quot;</p><p>李少白盯着归并排序看了一会儿，突然开窍：&quot;归并的时候，左右两队都是从小到大排好的。从两队的排头开始比较——如果右边的先出列，说明右边这个人比左边队里剩下的所有人都小，那些都是逆序对！&quot;</p><p>&quot;没错。&quot;赵晴儿笑了，&quot;排完序，逆序对也数完了。&quot;</p><p>给定一个长度为 n 的整数数列，求逆序对的数量。</p>",
+  "input_description": "<p>第一行包含整数n。第二行包含n个整数（1≤n≤100000）。</p>",
+  "output_description": "<p>一行，逆序对的数量。</p>",
+  "samples": [
+    {
+      "input": "5\n2 3 1 5 4",
+      "output": "3"
+    }
+  ],
+  "hint": "<p>归并排序过程中，当右边元素先被选中时，左边剩余元素个数就是新增的逆序对数。用 long long 存结果。</p><p><a href=\"https://www.acwing.com/problem/content/790/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 788 | JD106 | 第9章 快剑如风",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

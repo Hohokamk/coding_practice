@@ -1,0 +1,43 @@
+{
+  "id": 7316,
+  "display_id": "JD025",
+  "title": "信鸽传信",
+  "description": "<p>宗门各分舵之间用信鸽传信，每个分舵有一个编号（DDD码）。李少白拿到一个编号，需要查出它对应哪个分舵：61=Brasilia，71=Salvador，11=Sao Paulo，21=Rio de Janeiro，32=Juiz de Fora，19=Campinas，27=Vitoria，31=Belo Horizonte，其他编号则输出&quot;DDD nao cadastrado&quot;。</p>",
+  "input_description": "<p>一个整数。</p>",
+  "output_description": "<p>输出对应分舵名称，或 `DDD nao cadastrado`。</p>",
+  "samples": [
+    {
+      "input": "11",
+      "output": "Sao Paulo"
+    }
+  ],
+  "hint": "<p>用 if-elif 链逐一比对，或用字典/映射表查找。</p><p><a href=\"https://www.acwing.com/problem/content/673/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 671 | JD025 | 第2章 歧路逢生",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

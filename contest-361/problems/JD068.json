@@ -1,0 +1,43 @@
+{
+  "id": 7359,
+  "display_id": "JD068",
+  "title": "密文留白",
+  "description": "<p>古卷上的字太密了，赵晴儿让李少白在每个字符后面加一个空格，方便辨认。</p>",
+  "input_description": "<p>一行字符串（长度不超过100）。</p>",
+  "output_description": "<p>每个字符后加一个空格输出（最后一个字符后也有空格）。</p>",
+  "samples": [
+    {
+      "input": "abc",
+      "output": "a b c"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/767/\" target=\"_blank\">原题链接</a></p><p>遍历字符串，每个字符后输出一个空格。</p>",
+  "source": "JD | JD068 | 第6章 古卷密文",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

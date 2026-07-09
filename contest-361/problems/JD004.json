@@ -1,0 +1,43 @@
+{
+  "id": 7295,
+  "display_id": "JD004",
+  "title": "集市算账",
+  "description": "<p>宗门集市上，赵晴儿帮账房算一笔账。已知商品编号、购买数量和单价，算出总价。</p>",
+  "input_description": "<p>一行，三个数：商品编号（整数）、购买数量（整数）、单价（浮点数）。</p>",
+  "output_description": "<p>输出 TOTAL = 后跟总价（数量×单价），保留两位小数。</p>",
+  "samples": [
+    {
+      "input": "12 1 5.30",
+      "output": "TOTAL = 5.30"
+    }
+  ],
+  "hint": "<p>总价 = 件数₁×单价₁ + 件数₂×单价₂。</p><p><a href=\"https://www.acwing.com/problem/content/613/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 611 | JD004 | 第1章 持剑叩门",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

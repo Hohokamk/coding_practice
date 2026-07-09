@@ -1,0 +1,43 @@
+{
+  "id": 7342,
+  "display_id": "JD051",
+  "title": "剑行取道",
+  "description": "<p>沙盘上一个12×12的剑阵，赵晴儿指着其中一行：「这一行的所有剑，力量之和是多少？或平均力量？」李少白逐格检视。</p>",
+  "input_description": "<p>第一行一个整数L（0~11，表示行号）。第二行一个字符（S或M）。接下来12行，每行12个浮点数。</p>",
+  "output_description": "<p>输出该行的和或平均值，保留一位小数。</p>",
+  "samples": [
+    {
+      "input": "1\nM\n94.2 65.35 7.41 -67.85 18.62 -72.49 -5.91 66.06 -20.35 -17.4 12.62 -63.04\n...",
+      "output": "17.3"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/719/\" target=\"_blank\">原题链接</a></p><p>遍历指定行，根据操作类型求和或求平均。</p>",
+  "source": "JD | JD051 | 第4章 排兵布阵",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

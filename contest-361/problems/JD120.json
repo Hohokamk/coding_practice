@@ -1,0 +1,43 @@
+{
+  "id": 7411,
+  "display_id": "JD120",
+  "title": "江湖真假",
+  "description": "<p>江湖之中，n 位高手各立门派。有人传言：&quot;甲和乙是同门师兄弟。&quot;又有人说：&quot;丙能打败丁。&quot;</p><p>梁嘉峰说：&quot;江湖中，同类不吃同类。但吃的关系是传递的——甲吃乙、乙吃丙，则甲也吃丙。&quot;</p><p>赵晴儿教他：&quot;用带权并查集。每个节点到根的距离 mod 3 表示关系：距离 0 是同类，距离 1 能吃根，距离 2 被根吃。&quot;</p><p>给定 n 个人和 m 条关系声明，判断有多少条是假的（与前面的真话矛盾）。</p>",
+  "input_description": "<p>第一行两个整数 n 和 m（1 ≤ n ≤ 50000, 1 ≤ m ≤ 100000）。接下来 m 行，每行三个整数 d x y。d=1 表示同类，d=2 表示 x 吃 y。</p>",
+  "output_description": "<p>一行，假话的数量。</p>",
+  "samples": [
+    {
+      "input": "100 7\n1 101 1\n2 1 2\n2 2 3\n2 3 3\n1 1 3\n2 3 1\n1 5 5",
+      "output": "3"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/242/\" target=\"_blank\">原题链接</a></p><p>带权并查集。节点到根距离 mod 3：0=同类，1=吃根，2=被根吃。路径压缩时更新距离。</p>",
+  "source": "AcWing 240",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

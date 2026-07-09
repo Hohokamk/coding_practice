@@ -1,0 +1,43 @@
+{
+  "id": 7312,
+  "display_id": "JD021",
+  "title": "沙盘点位",
+  "description": "<p>赵晴儿在沙盘上标了一个点P(x, y)，让李少白判断它落在第几象限，还是在坐标轴上，还是在原点。</p>",
+  "input_description": "<p>一行，两个浮点数x和y。</p>",
+  "output_description": "<p>输出 <code>Q1</code>（第一象限）、<code>Q2</code>（第二）、<code>Q3</code>（第三）、<code>Q4</code>（第四）、<code>Eixo X</code>（X轴上）、<code>Eixo Y</code>（Y轴上）或 <code>Origem</code>（原点）。</p>",
+  "samples": [
+    {
+      "input": "4.5 -2.2",
+      "output": "Q4"
+    }
+  ],
+  "hint": "<p>先判断是否在原点或坐标轴上（x==0 或 y==0），再判断象限。</p><p><a href=\"https://www.acwing.com/problem/content/664/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 662 | JD021 | 第2章 歧路逢生",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

@@ -1,0 +1,43 @@
+{
+  "id": 7382,
+  "display_id": "JD091",
+  "title": "递归阶乘",
+  "description": "<p>李少白在丹房翻到一本古籍，上面记载着一种&quot;以丹炼丹&quot;的奇术——要炼n味丹药，先炼好n-1味；要炼n-1味，先炼好n-2味……直到只剩1味，直接炼成。</p><p>赵晴儿看了笑道：&quot;这就是递归。一个函数调用自己，层层深入，直到触底再层层返回。阶乘的定义本身就是递归的——fact(n) = n × fact(n-1)，fact(1) = 1。&quot;</p><p>&quot;用递归重新实现阶乘函数。&quot;</p>",
+  "input_description": "<p>一个整数n。</p>",
+  "output_description": "<p>输出n的阶乘。</p>",
+  "samples": [
+    {
+      "input": "5",
+      "output": "120"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/16/\" target=\"_blank\">原题链接</a></p><p>递归三要素：终止条件(n==1返回1)、递推关系(n*fact(n-1))、缩小规模。</p>",
+  "source": "JD | JD091 | 第7章 以招创招",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

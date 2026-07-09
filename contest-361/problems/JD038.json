@@ -1,0 +1,43 @@
+{
+  "id": 7329,
+  "display_id": "JD038",
+  "title": "石中之王",
+  "description": "<p>练功场上摆了一排石块，每块上面刻着一个数。赵晴儿让李少白找到最大的数，并说出它是第几块（从1开始计数）。</p>",
+  "input_description": "<p>第一行一个整数N，表示石块数量。第二行N个整数。</p>",
+  "output_description": "<p>输出最大值和它的位置，格式见样例。</p>",
+  "samples": [
+    {
+      "input": "5\n3 2 5 1 4",
+      "output": "5\n3"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/712/\" target=\"_blank\">原题链接</a></p><p>遍历时同时记录最大值和位置。</p>",
+  "source": "AcWing ??? | JD038 | 第3章 千回百转",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

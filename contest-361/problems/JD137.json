@@ -1,0 +1,47 @@
+{
+  "id": 7428,
+  "display_id": "JD137",
+  "title": "堆石成丘",
+  "description": "<p>梁嘉峰在地上堆了一座小丘：&quot;堆——一种特殊的完全二叉树。父节点的值永远比子节点小（小根堆）。&quot;</p><p>赵晴儿说：&quot;用数组存——父节点i的子节点是2i和2i+1。插入时上浮，删除时下沉。支持插入、取最小值、删除最小值、删除任意元素、修改任意元素。&quot;</p><p>实现一个小根堆，支持插入、删除第k个插入的元素、修改第k个插入的元素、查询最小值、删除最小值。</p>",
+  "input_description": "<p>若干行操作命令：I x（插入x）、PM（查询最小值）、DM（删除最小值）、D k（删除第k个插入的元素）、C k x（修改第k个插入的数为x）。</p>",
+  "output_description": "<p>对每个PM操作输出一行最小值。</p>",
+  "samples": [
+    {
+      "input": "5\nI 3\nI 1\nI 4\nPM\nD 1",
+      "output": "1"
+    },
+    {
+      "input": "8\nI 2\nI 1\nI 3\nPM\nDM\nPM\nC 2 8\nPM",
+      "output": "1\n2\n3"
+    }
+  ],
+  "hint": "<p>数组模拟堆：上浮和下沉操作。父节点i的子节点是2i和2i+1。维护ph[]和hp[]数组记录插入顺序与堆中位置的映射。</p><p><a href=\"https://www.acwing.com/problem/content/841/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 839 | JD137",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

@@ -1,0 +1,43 @@
+{
+  "id": 7369,
+  "display_id": "JD078",
+  "title": "两卷对校",
+  "description": "<p>赵晴儿拿着两卷古卷：「看看第二段经文是不是第一段中的一部分——如果是，就算对上了。」</p>",
+  "input_description": "<p>第一行字符串a。第二行字符串b。</p>",
+  "output_description": "<p>b是a的子串输出yes，否则输出no。</p>",
+  "samples": [
+    {
+      "input": "abc\nd",
+      "output": "no"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/778/\" target=\"_blank\">原题链接</a></p><p>遍历a的每个位置，用strncmp比较是否与b匹配。</p>",
+  "source": "JD | JD078 | 第6章 古卷密文",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

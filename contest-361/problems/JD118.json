@@ -1,0 +1,43 @@
+{
+  "id": 7409,
+  "display_id": "JD118",
+  "title": "剑招收放",
+  "description": "<p>剑道宗大殿前，十八般兵器陈列两旁。梁嘉峰指着 n 把剑说：&quot;每一把，你可以选择施展（选）或收起（不选）。列出所有可能的剑招组合。&quot;</p><p>李少白问：&quot;n 把剑有 2^n 种组合，怎么枚举？&quot;赵晴儿递来一张纸：&quot;递归。对于每把剑，先试&#039;选&#039;，再试&#039;不选&#039;。走到尽头就输出当前组合。&quot;</p><p>给定 n，按字典序输出 1~n 的所有非空子集。每个子集内数字升序排列。</p>",
+  "input_description": "<p>一行一个整数 n（1 ≤ n ≤ 16）。</p>",
+  "output_description": "<p>每行一个子集，子集内数字升序排列，子集之间按字典序排列。空集不输出。</p>",
+  "samples": [
+    {
+      "input": "3",
+      "output": "1\n1 2\n1 2 3\n1 3\n2\n2 3\n3"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/94/\" target=\"_blank\">原题链接</a></p><p>递归枚举：对每个位置选或不选，到达边界输出。2^n 种组合。</p>",
+  "source": "AcWing 92",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

@@ -1,0 +1,43 @@
+{
+  "id": 7341,
+  "display_id": "JD050",
+  "title": "列阵求和",
+  "description": "<p>梁嘉峰在沙盘上画了一个数字阵列：「从M到N，全部列出来，再算和。如果M比N大，先交换。」李少白从M一路数到N，把每个数刻在石板上。</p>",
+  "input_description": "<p>若干行，每行两个整数M和N。当M和N均为非正数（≤0）时结束输入。</p>",
+  "output_description": "<p>对每组M和N，从小到大输出M到N之间的所有整数（空格隔开），最后输出 <code>Sum=X</code>（X为这些数的和）。每组输出占一行。</p>",
+  "samples": [
+    {
+      "input": "5 10\n2 3\n-1 -1",
+      "output": "5 6 7 8 9 10 Sum=45\n2 3 Sum=5"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/746/\" target=\"_blank\">原题链接</a></p><p>若M&gt;N则先交换。注意：结束条件为两个数均≤0（测试用例可能用0 0或-1 -1）。</p>",
+  "source": "JD | JD050 | 第4章 排兵布阵",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

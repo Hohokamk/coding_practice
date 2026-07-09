@@ -1,0 +1,43 @@
+{
+  "id": 7299,
+  "display_id": "JD008",
+  "title": "马匹脚力",
+  "description": "<p>李少白骑马送信，跑了S公里，马匹消耗了L升草料汁。他想知道每升草料汁能支撑跑多少公里。</p>",
+  "input_description": "<p>一行，两个浮点数，分别表示路程（km）和草料消耗（L）。</p>",
+  "output_description": "<p>输出每升草料汁能跑的公里数，保留3位小数，后跟 km/l。</p>",
+  "samples": [
+    {
+      "input": "500 35.0",
+      "output": "14.286 km/l"
+    }
+  ],
+  "hint": "<p>消耗率 = 草料 / 路程，注意浮点数除法。</p><p><a href=\"https://www.acwing.com/problem/content/617/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 615 | JD008 | 第1章 持剑叩门",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

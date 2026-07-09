@@ -1,0 +1,43 @@
+{
+  "id": 7297,
+  "display_id": "JD006",
+  "title": "剑术考核",
+  "description": "<p>入门考核有两项：剑术和心法。剑术权重3.5，心法权重7.5。赵晴儿拿到成绩后要算加权平均分。</p>",
+  "input_description": "<p>两行，每行一个浮点数，分别表示剑术成绩A和心法成绩B。</p>",
+  "output_description": "<p>输出 `Average = ` 后跟加权平均分，保留5位小数。</p>",
+  "samples": [
+    {
+      "input": "9.7\n5.3",
+      "output": "Average = 6.70000"
+    }
+  ],
+  "hint": "<p>加权平均 = (A×3.5 + B×7.5) / 11。分母是权重之和，不是2。</p><p><a href=\"https://www.acwing.com/problem/content/608/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 606 | JD006 | 第1章 持剑叩门",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

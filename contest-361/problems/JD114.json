@@ -1,0 +1,43 @@
+{
+  "id": 7405,
+  "display_id": "JD114",
+  "title": "双剑求和",
+  "description": "<p>赵晴儿递给李少白两排有序的铁牌，每排上的数字从小到大排列。她说：&quot;从两排铁牌中各取一块，使它们的数字之和刚好等于一个目标值。&quot;</p><p>李少白想暴力枚举，但每排都有十万块。赵晴儿说：&quot;两排都是有序的——第一个指针从第一排的头部开始，第二个指针从第二排的尾部开始。如果和太大，第二个指针往左移；和太小，第一个指针往右移。两个指针配合，一次遍历就够了。&quot;</p><p>给定两个升序数组 A 和 B，以及目标值 x，找出满足 A[i] + B[j] = x 的数对 (i, j)。保证有唯一解。</p>",
+  "input_description": "<p>第一行两个整数n和m。第二行n个整数。第三行m个整数。</p>",
+  "output_description": "<p>一行，两个整数i和j。</p>",
+  "samples": [
+    {
+      "input": "4 5 6\n1 2 4 7\n3 4 6 8 9",
+      "output": "1 1"
+    }
+  ],
+  "hint": "<p>双指针：i 从 A 的头，j 从 B 的尾。A[i]+B[j] &lt; x 则 i++，&gt; x 则 j--。O(n+m)。</p><p><a href=\"https://www.acwing.com/problem/content/802/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 800 | JD114",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

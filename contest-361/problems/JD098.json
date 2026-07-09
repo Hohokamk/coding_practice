@@ -1,0 +1,43 @@
+{
+  "id": 7389,
+  "display_id": "JD098",
+  "title": "倒转铁链",
+  "description": "<p>兵器阁的架子上挂着一串铁环，每个环上刻着一个数字，从头到尾依次是1、2、3……最后一个环上刻着-1，表示链条结束。</p><p>梁嘉峰指着铁链说：&quot;我要从最后一个环开始，把数字一个个报出来。但这串铁环只能从前往后读，不能直接跳到末尾。&quot;</p><p>赵晴儿想了想：&quot;用一个容器——先把所有数字存进去，再从后往前取出来。这就像把铁环一个个摘下来放到盒子里，最后从盒子里倒着取。&quot;</p>",
+  "input_description": "<p>一行整数，以-1结尾，表示链表的节点值（-1不算节点）。</p>",
+  "output_description": "<p>从尾到头输出每个节点的值，每行一个。</p>",
+  "samples": [
+    {
+      "input": "1 2 3 -1",
+      "output": "3\n2\n1"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/17/\" target=\"_blank\">原题链接</a></p><p>用栈存储所有节点值，然后依次弹出。或者用递归。</p>",
+  "source": "JD | JD098 | 第8章 百器图谱",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

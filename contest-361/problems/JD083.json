@@ -1,0 +1,43 @@
+{
+  "id": 7374,
+  "display_id": "JD083",
+  "title": "剑气归正",
+  "description": "<p>李少白在练剑气外放时，需要计算剑气落点与自己的距离。距离本该是正数，但有时算出的结果是负数——因为方向搞反了。</p><p>赵晴儿说：&quot;别每次遇到负数就手动取反，写一个函数，不管传入正数还是负数，都返回它的绝对值。&quot;</p>",
+  "input_description": "<p>一个整数x。</p>",
+  "output_description": "<p>输出x的绝对值。</p>",
+  "samples": [
+    {
+      "input": "-5",
+      "output": "5"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/812/\" target=\"_blank\">原题链接</a></p><p>if x &lt; 0: return -x, else: return x。</p>",
+  "source": "JD | JD083 | 第7章 以招创招",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

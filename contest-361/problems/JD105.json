@@ -1,0 +1,43 @@
+{
+  "id": 7396,
+  "display_id": "JD105",
+  "title": "双剑合阵",
+  "description": "<p>赵晴儿把弟子们两两分成一组，每组内部先按身高排好。然后两组合成一组四人——从两组的排头各看一眼，矮的先出列，依次接上。四人组再两两合并成八人组……</p><p>梁嘉峰看明白了：&quot;快排是先挑基准把人分开，归并是先把人拆到最小单位，再一层层合并上来。&quot;</p><p>&quot;对，&quot;赵晴儿说，&quot;合并时两边都是有序的，所以每次只需要比较排头，O(n)就能合并。拆到底再合上来，总共 O(nlogn)。而且最坏情况也一样——不像快排最坏会退化。&quot;</p><p>给定一个长度为 n 的整数数列，请用归并排序将其从小到大排序。</p>",
+  "input_description": "<p>第一行包含整数n。第二行包含n个整数。</p>",
+  "output_description": "<p>一行，n个排好序的整数，空格隔开。</p>",
+  "samples": [
+    {
+      "input": "5\n3 1 2 4 5",
+      "output": "1 2 3 4 5"
+    }
+  ],
+  "hint": "<p>递归拆分 → 合并两个有序数组。需要额外空间 O(n)。稳定排序。</p><p><a href=\"https://www.acwing.com/problem/content/790/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 787 | JD105 | 第9章 快剑如风",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

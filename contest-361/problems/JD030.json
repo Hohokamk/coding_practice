@@ -1,0 +1,43 @@
+{
+  "id": 7321,
+  "display_id": "JD030",
+  "title": "奇数石砖",
+  "description": "<p>千层塔第二层。墙上有一排编号从1到X的石砖。梁嘉峰指着石砖说：「把所有奇数编号的报出来。」</p>",
+  "input_description": "<p>一个正整数X。</p>",
+  "output_description": "<p>每行一个奇数，从1到X（含）。</p>",
+  "samples": [
+    {
+      "input": "8",
+      "output": "1\n3\n5\n7"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/711/\" target=\"_blank\">原题链接</a></p><p>for循环从1开始，步长为2，到X结束。如果X是偶数，最后一个奇数是X-1。</p>",
+  "source": "AcWing ??? | JD030 | 第3章 千回百转",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

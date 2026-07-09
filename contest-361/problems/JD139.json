@@ -1,0 +1,43 @@
+{
+  "id": 7430,
+  "display_id": "JD139",
+  "title": "门派计数",
+  "description": "<p>赵晴儿在并查集的基础上问：&quot;每个门派有多少人？&quot;</p><p>梁嘉峰说：&quot;在合并时，把一个门派的人数加到另一个上。查询时直接读人数。&quot;</p><p>给定N个元素和M个操作：合并两个集合（C a b），查询两个元素是否在同一集合（Q1 a b），或查询某个元素所在集合的大小（Q2 a）。</p>",
+  "input_description": "<p>第一行两个整数N和M。接下来M行，每行C a b（合并a和b所在集合）、Q1 a b（查询a和b是否在同一集合）、或Q2 a（查询a所在集合的大小）。</p>",
+  "output_description": "<p>对每个Q1操作输出Yes或No；对每个Q2操作输出一行集合大小。</p>",
+  "samples": [
+    {
+      "input": "4 5\nC 1 2\nQ2 1\nC 2 3\nQ2 1\nQ2 4",
+      "output": "2\n3\n1"
+    }
+  ],
+  "hint": "<p>维护size[]数组，合并时更新size。用C a b合并，Q1 a b查是否同集，Q2 a查集合大小。</p><p><a href=\"https://www.acwing.com/problem/content/839/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 837 | JD139",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

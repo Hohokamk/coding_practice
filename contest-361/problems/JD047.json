@@ -1,0 +1,43 @@
+{
+  "id": 7338,
+  "display_id": "JD047",
+  "title": "剑锋所指",
+  "description": "<p>练功场上一排木桩，每根木桩上刻着一个数。赵晴儿让他找到最矮的那根木桩——剑锋所向，以弱制动。找到最小值并说出它的位置（从0开始计数）。</p>",
+  "input_description": "<p>第一行一个整数N。第二行N个整数。</p>",
+  "output_description": "<p>第一行输出 <code>Menor valor: X</code>，第二行输出 <code>Posicao: P</code>，其中P为最小值的下标（从0开始计数）。若最小值出现多次，输出第一次出现的位置。</p>",
+  "samples": [
+    {
+      "input": "10\n1 2 3 4 -5 6 7 8 9 10",
+      "output": "Menor valor: -5\nPosicao: 4"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/742/\" target=\"_blank\">原题链接</a></p><p>遍历时记录当前最小值和位置。注意位置从0开始计数。</p>",
+  "source": "JD | JD047 | 第4章 排兵布阵",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

@@ -1,0 +1,43 @@
+{
+  "id": 7376,
+  "display_id": "JD085",
+  "title": "辗转相除",
+  "description": "<p>赵晴儿在药圃里采了a株紫芝和b株青蒿，要把它们扎成相同大小的药束，每束株数相同且不能有剩余。</p><p>&quot;这其实就是求a和b的最大公约数，&quot;赵晴儿说，&quot;古人有个妙法叫辗转相除——用大数除以小数取余，再用小数除以余数，反复如此，直到余数为零。最后一个非零余数就是答案。&quot;</p><p>请帮赵晴儿写一个函数，用辗转相除法求两个正整数的最大公约数。</p>",
+  "input_description": "<p>一行，两个正整数a和b。</p>",
+  "output_description": "<p>输出a和b的最大公约数。</p>",
+  "samples": [
+    {
+      "input": "963 787",
+      "output": "1"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/821/\" target=\"_blank\">原题链接</a></p><p>辗转相除法：gcd(a,b) = gcd(b, a%b)，当b==0时返回a。</p>",
+  "source": "JD | JD085 | 第7章 以招创招",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

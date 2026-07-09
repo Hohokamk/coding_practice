@@ -1,0 +1,43 @@
+{
+  "id": 7320,
+  "display_id": "JD029",
+  "title": "石砖偶数",
+  "description": "<p>千层塔第一层。墙上刻着一排编号从1到100的石砖。赵晴儿说：「把所有偶数编号的石砖挑出来，每行报一个。」</p>",
+  "input_description": "<p>无输入。</p>",
+  "output_description": "<p>输出全部偶数，每个偶数占一行。</p>",
+  "samples": [
+    {
+      "input": "No input",
+      "output": "2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n22\n24\n26\n28\n30\n32\n34\n36\n38\n40\n42\n44\n46\n48\n50\n52\n54\n56\n58\n60\n62\n64\n66\n68\n70\n72\n74\n76\n78\n80\n82\n84\n86\n88\n90\n92\n94\n96\n98\n100"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/710/\" target=\"_blank\">原题链接</a></p><p>for循环从2开始，步长为2，到100结束。</p>",
+  "source": "AcWing ??? | JD029 | 第3章 千回百转",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

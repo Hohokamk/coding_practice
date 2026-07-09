@@ -1,0 +1,43 @@
+{
+  "id": 7384,
+  "display_id": "JD093",
+  "title": "登阶问道",
+  "description": "<p>试炼场尽头，一座石阶直通山顶。石阶共有n级，每次只能跨1级或2级。</p><p>赵晴儿站在山脚问：&quot;从第一级走到第n级，一共有多少种不同的走法？&quot;</p><p>李少白想了想：&quot;如果我最后一步跨1级，那之前有f(n-1)种走法；如果最后一步跨2级，那之前有f(n-2)种走法……&quot;</p><p>&quot;没错，&quot;赵晴儿点头，&quot;这就是递归。&quot;</p>",
+  "input_description": "<p>一个整数n（1 ≤ n ≤ 20）。</p>",
+  "output_description": "<p>输出跳法总数。</p>",
+  "samples": [
+    {
+      "input": "5",
+      "output": "8"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/823/\" target=\"_blank\">原题链接</a></p><p>f(n) = f(n-1) + f(n-2)。最后一步跳1级或2级，两种情况之和。</p>",
+  "source": "JD | JD093 | 第7章 以招创招",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

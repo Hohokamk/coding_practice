@@ -1,0 +1,43 @@
+{
+  "id": 7414,
+  "display_id": "JD123",
+  "title": "差分之术",
+  "description": "<p>赵晴儿指着一排石块：&quot;我要把第3块到第7块每块都加上5。如果一块块改，太慢了。&quot;</p><p>梁嘉峰说：&quot;差分——前缀和的逆运算。你在第3块的位置加5，在第8块的位置减5。最后对整排求一次前缀和，第3到第7块就都加了5，其余不变。&quot;</p><p>&quot;就像往水面扔两块石头，&quot;李少白恍然大悟，&quot;波纹叠加后就是最终结果。&quot;</p><p>给定一个长度为 n 的整数序列和 m 个操作，每个操作将 [l, r] 的每个数加 c。输出所有操作后的序列。</p>",
+  "input_description": "<p>第一行两个整数n和m。第二行n个整数。接下来m行每行两个整数l和r。</p>",
+  "output_description": "<p>一行，n个整数，空格隔开，表示经过m次操作后的最终序列。</p>",
+  "samples": [
+    {
+      "input": "5 3\n1 2 3 4 5\n1 3 2\n2 4 1\n3 5 3",
+      "output": "3 5 8 8 8"
+    }
+  ],
+  "hint": "<p>差分：b[l] += c, b[r+1] -= c。所有操作完成后，对 b 求前缀和得到最终序列。</p><p><a href=\"https://www.acwing.com/problem/content/799/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 797 | JD123",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

@@ -1,0 +1,43 @@
+{
+  "id": 7313,
+  "display_id": "JD022",
+  "title": "跨夜比武",
+  "description": "<p>李少白和师弟比武，开始时间是A时B分，结束时间是C时D分。比武可能跨了零点。请算出比武持续了多久。</p>",
+  "input_description": "<p>一行，四个整数A、B、C、D，分别表示开始的时、分和结束的时、分。</p>",
+  "output_description": "<p>输出比武持续时间，格式为 `H:M`。</p>",
+  "samples": [
+    {
+      "input": "8 56 7 37",
+      "output": "22:41"
+    }
+  ],
+  "hint": "<p>全部转为分钟做差。如果结果≤0，加上24×60。</p><p><a href=\"https://www.acwing.com/problem/content/670/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 668 | JD022 | 第2章 歧路逢生",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

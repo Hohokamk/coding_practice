@@ -1,0 +1,43 @@
+{
+  "id": 7423,
+  "display_id": "JD132",
+  "title": "列阵待命",
+  "description": "<p>赵晴儿指着一排队列：&quot;队列——先进先出。新来的站队尾，走的从队头走。&quot;</p><p>梁嘉峰说：&quot;push是从队尾加入，pop是从队头弹出，query是看队头是谁。&quot;</p><p>&quot;排队买饭、消息队列、BFS——都是队列。&quot;</p><p>实现一个队列，支持push、pop、query、empty操作。</p>",
+  "input_description": "<p>若干行操作命令：push x（入队）、pop（出队）、query（查询队头）、empty（判断队列是否为空）。</p>",
+  "output_description": "<p>对每个query和empty操作输出一行结果。其中query输出队头元素，empty输出YES或NO。</p>",
+  "samples": [
+    {
+      "input": "10\npush 5\nquery\npush 3\npop\nquery\nempty\npush 7\npop\npop\nempty",
+      "output": "5\n3\nNO\nYES"
+    }
+  ],
+  "hint": "<p>数组模拟队列：hh队头，tt队尾。push: q[++tt]=x。pop: hh++。query: q[hh]。empty: 判断hh是否大于tt。</p><p><a href=\"https://www.acwing.com/problem/content/831/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 829 | JD132",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

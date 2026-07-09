@@ -1,0 +1,43 @@
+{
+  "id": 7315,
+  "display_id": "JD024",
+  "title": "五关考验",
+  "description": "<p>梁嘉峰考李少白：「给你四个数A、B、C、D，同时满足以下五个条件才算过关：B大于A，D大于A，C与D之和大于A与B之和，C是正数，A是偶数。」</p>",
+  "input_description": "<p>一行，四个整数A、B、C、D。</p>",
+  "output_description": "<p>满足所有条件输出 `Accepted`，否则输出 `Not accepted`。</p>",
+  "samples": [
+    {
+      "input": "-87 14 68 33",
+      "output": "Not accepted"
+    }
+  ],
+  "hint": "<p>用逻辑与（&&/and）连接五个条件，全部为真才通过。</p><p><a href=\"https://www.acwing.com/problem/content/659/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 657 | JD024 | 第2章 歧路逢生",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

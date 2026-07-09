@@ -1,0 +1,43 @@
+{
+  "id": 7383,
+  "display_id": "JD092",
+  "title": "递归斐波",
+  "description": "<p>赵晴儿在沙盘上画出一串数字：1, 1, 2, 3, 5, 8, 13……</p><p>&quot;看出规律了吗？&quot;她问。</p><p>李少白看了半天：&quot;每个数都是前两个数的和！&quot;</p><p>&quot;对，这就是斐波那契数列。&quot;赵晴儿说，&quot;用递归来写——f(1)=1, f(2)=1, f(n)=f(n-1)+f(n-2)。不过提醒你，朴素递归效率很低，后面会学到优化的方法。&quot;</p>",
+  "input_description": "<p>一个整数n。</p>",
+  "output_description": "<p>输出斐波那契数列第n项。</p>",
+  "samples": [
+    {
+      "input": "4",
+      "output": "3"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/822/\" target=\"_blank\">原题链接</a></p><p>递归：f(1)=1, f(2)=1, f(n)=f(n-1)+f(n-2)。注意效率问题。</p>",
+  "source": "JD | JD092 | 第7章 以招创招",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

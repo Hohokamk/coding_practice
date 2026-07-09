@@ -1,0 +1,43 @@
+{
+  "id": 7399,
+  "display_id": "JD108",
+  "title": "剑指方根",
+  "description": "<p>赵晴儿在沙盘上写下一个数 n：&quot;求它的三次方根。&quot;</p><p>李少白试了几个整数，立方后不是太大就是太小。赵晴儿说：&quot;别猜了。三次方根一定在 -10000 到 10000 之间。你取中间值试试——如果中间值的立方比 n 大，说明真正的答案在左半边；比 n 小，就在右半边。范围不断缩小，直到精度足够。&quot;</p><p>&quot;和整数二分一样的思路，&quot;李少白说，&quot;只不过这次找的不是一个确切的位置，而是一个足够精确的浮点数。&quot;</p><p>&quot;对。整数二分停在某个整数上，浮点二分停在精度达标时。&quot;</p><p>给定一个浮点数 n，求它的三次方根。</p>",
+  "input_description": "<p>一个浮点数n（-10000≤n≤10000）。</p>",
+  "output_description": "<p>n的三次方根，保留6位小数。</p>",
+  "samples": [
+    {
+      "input": "1000.000000",
+      "output": "10.000000"
+    }
+  ],
+  "hint": "<p>浮点二分：left=-10000, right=10000，while(right-left&gt;1e-8)，mid=(left+right)/2。若 mid³≥n，right=mid；否则 left=mid。</p><p><a href=\"https://www.acwing.com/problem/content/792/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 790 | JD108 | 第9章 快剑如风",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

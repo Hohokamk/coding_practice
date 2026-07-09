@@ -1,0 +1,43 @@
+{
+  "id": 7307,
+  "display_id": "JD016",
+  "title": "三根木棍",
+  "description": "<p>赵晴儿从柴堆里抽出三根木棍，量了量长度，让李少白判断它们能不能拼成一个三角形。如果能，算出周长；如果不能，算出以A、B为上下底、C为高的梯形面积，公式为 (A+B)×C÷2。</p>",
+  "input_description": "<p>一行，三个浮点数A、B、C。</p>",
+  "output_description": "<p>能拼成三角形输出 `Perimeter = X.X`（周长），拼不成输出 `Area = X.X`（梯形面积）。</p>",
+  "samples": [
+    {
+      "input": "6.0 4.0 2.0",
+      "output": "Area = 10.0"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/666/\" target=\"_blank\">原题链接</a></p><p>三角形成立条件：任意两边之和大于第三边。如果成立，周长=A+B+C；如果不成立，梯形面积=(A+B)*C/2。注意保留1位小数。</p>",
+  "source": "AcWing 664 | JD016 | 第2章 歧路逢生",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

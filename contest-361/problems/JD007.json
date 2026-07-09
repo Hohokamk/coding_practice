@@ -1,0 +1,43 @@
+{
+  "id": 7298,
+  "display_id": "JD007",
+  "title": "月底发饷",
+  "description": "<p>月底发饷，李少白帮账房核算一名弟子的工钱。已知工号、出工天数和每日工钱。</p>",
+  "input_description": "<p>第一行一个整数，表示工号。第二行两个数：出工天数（整数）和每日工钱（浮点数）。</p>",
+  "output_description": "<p>第一行输出工号。第二行输出 `SALARY = U$ ` 后跟实发金额，保留两位小数。</p>",
+  "samples": [
+    {
+      "input": "25\n100 5.50",
+      "output": "NUMBER = 25\nSALARY = U$ 550.00"
+    }
+  ],
+  "hint": "<p>实发金额 = 出工天数 × 每日工钱。</p><p><a href=\"https://www.acwing.com/problem/content/611/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 609 | JD007 | 第1章 持剑叩门",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

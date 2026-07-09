@@ -1,0 +1,43 @@
+{
+  "id": 7340,
+  "display_id": "JD049",
+  "title": "斐波剑诀",
+  "description": "<p>赵晴儿展开一卷古剑谱，上面记载着斐波那契剑诀：0, 1, 1, 2, 3, 5, 8, 13……「每一式都是前两式的融合。T次问询，每次报出第N式。」</p>",
+  "input_description": "<p>一个整数N。</p>",
+  "output_description": "<p>一行，前N个斐波那契数，空格隔开。</p>",
+  "samples": [
+    {
+      "input": "5",
+      "output": "0 1 1 2 3"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/744/\" target=\"_blank\">原题链接</a></p><p>预处理斐波那契数组到60，查询时直接取值。</p>",
+  "source": "JD | JD049 | 第4章 排兵布阵",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

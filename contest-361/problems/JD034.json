@@ -1,0 +1,43 @@
+{
+  "id": 7325,
+  "display_id": "JD034",
+  "title": "余数寻踪",
+  "description": "<p>梁嘉峰写下了一个数N：「从1到10000，把所有除以N余数为2的数报给我。」</p>",
+  "input_description": "<p>一个整数N（N&gt;2）。</p>",
+  "output_description": "<p>每行一个数，从1到10000中除以N余2的数。</p>",
+  "samples": [
+    {
+      "input": "13",
+      "output": "2\n15\n28\n41\n54\n..."
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/723/\" target=\"_blank\">原题链接</a></p><p>for循环从1到10000，if i%N==2则输出。</p>",
+  "source": "AcWing ??? | JD034 | 第3章 千回百转",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

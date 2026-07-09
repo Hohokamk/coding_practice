@@ -1,0 +1,43 @@
+{
+  "id": 7302,
+  "display_id": "JD011",
+  "title": "哨塔测距",
+  "description": "<p>赵晴儿在沙盘上标了两个哨塔的坐标(x1,y1)和(x2,y2)。她说：「算算它们之间的直线距离。」</p>",
+  "input_description": "<p>一行，四个浮点数x1, y1, x2, y2，用空格隔开。</p>",
+  "output_description": "<p>输出两点间的距离，保留两位小数。</p>",
+  "samples": [
+    {
+      "input": "1.0 7.0 5.0 9.0",
+      "output": "4.4721"
+    }
+  ],
+  "hint": "<p>使用距离公式，需要引入数学库以使用sqrt函数。</p><p><a href=\"https://www.acwing.com/problem/content/618/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 616 | JD011 | 第1章 持剑叩门",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

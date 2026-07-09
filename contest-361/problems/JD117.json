@@ -1,0 +1,43 @@
+{
+  "id": 7408,
+  "display_id": "JD117",
+  "title": "独剑无双",
+  "description": "<p>藏剑阁深处，梁嘉峰领着李少白走进一间密室。墙上挂满了剑，每把剑柄上都刻着一个数字。</p><p>&quot;这些剑，成双成对，唯有一把是独一无二的。&quot;梁嘉峰说，&quot;你能在 O(1) 额外空间内找出它吗？&quot;</p><p>李少白想用哈希表记录每把剑出现的次数。赵晴儿摇头：&quot;空间不够。想想异或的性质——a ^ a = 0，a ^ 0 = a。成对的剑异或后消失，留下的就是独剑。&quot;</p><p>给定 n 个整数，其中只有一个数出现了一次，其余数都恰好出现了两次。找出那个只出现一次的数。要求时间复杂度 O(n)，空间复杂度 O(1)。</p>",
+  "input_description": "<p>第一行一个整数 n（n 为奇数，1 ≤ n ≤ 100000）。第二行 n 个整数，每个数在 int 范围内。</p>",
+  "output_description": "<p>一行，只出现一次的那个数。</p>",
+  "samples": [
+    {
+      "input": "5\n1 2 3 2 1",
+      "output": "3"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/92/\" target=\"_blank\">原题链接</a></p><p>异或性质：a^a=0, a^0=a。所有数异或，成对消失，独者现身。O(n) 时间，O(1) 空间。</p>",
+  "source": "AcWing 90",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

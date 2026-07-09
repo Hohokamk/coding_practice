@@ -1,0 +1,43 @@
+{
+  "id": 7324,
+  "display_id": "JD033",
+  "title": "正数清点",
+  "description": "<p>赵晴儿递给李少白6个测量数据，有的是正数有的是负数。她问：「这里面有几个正数？」</p>",
+  "input_description": "<p>6行，每行一个浮点数。</p>",
+  "output_description": "<p>输出正数的个数，格式为 `X valores positivos`。</p>",
+  "samples": [
+    {
+      "input": "7\n-5\n6\n-3.4\n4.6\n12",
+      "output": "4 positive numbers"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/718/\" target=\"_blank\">原题链接</a></p><p>循环读入6个数，用if判断是否&gt;0，计数器累加。</p>",
+  "source": "AcWing ??? | JD033 | 第3章 千回百转",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

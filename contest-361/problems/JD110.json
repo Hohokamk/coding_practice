@@ -1,0 +1,43 @@
+{
+  "id": 7401,
+  "display_id": "JD110",
+  "title": "万钧合一",
+  "description": "<p>精铸阁中，赵晴儿递来两块铁牌，上面各刻着一个巨大的数字——长到普通变量根本装不下。</p><p>&quot;这两个数要加起来，&quot;赵晴儿说，&quot;但没有那么大的容器。怎么办？&quot;</p><p>李少白想了想：&quot;像竖式加法一样，把每一位拆开，用数组存。从最低位开始逐位相加，满十进一。&quot;</p><p>&quot;对。这就是高精度加法——用数组模拟竖式。&quot;</p><p>给定两个正整数，计算它们的和。每个数不超过 100000 位。</p>",
+  "input_description": "<p>两行，每行一个正整数（不超过100000位）。</p>",
+  "output_description": "<p>一行，两数之和。</p>",
+  "samples": [
+    {
+      "input": "123456789012345678901234567890\n987654321098765432109876543210",
+      "output": "1111111110111111111011111111100"
+    }
+  ],
+  "hint": "<p>用数组存每一位（倒序），从低位到高位逐位相加，处理进位。最后倒序输出。</p><p><a href=\"https://www.acwing.com/problem/content/793/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 791 | JD110 | 第10章 千锤百炼",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

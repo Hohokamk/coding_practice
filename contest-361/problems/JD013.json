@@ -1,0 +1,43 @@
+{
+  "id": 7304,
+  "display_id": "JD013",
+  "title": "水钟报时",
+  "description": "<p>宗门的水钟记录的是总秒数，但掌门要求用「时:分:秒」的格式汇报。赵晴儿让李少白帮忙转换。</p>",
+  "input_description": "<p>一个整数N，表示总秒数。</p>",
+  "output_description": "<p>输出 `H:M:S` 格式的时间。</p>",
+  "samples": [
+    {
+      "input": "556",
+      "output": "0:9:16"
+    }
+  ],
+  "hint": "<p>时 = 秒 ÷ 3600，分 = 余数 ÷ 60，秒 = 最终余数。</p><p><a href=\"https://www.acwing.com/problem/content/656/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 654 | JD013 | 第1章 持剑叩门",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

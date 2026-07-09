@@ -1,0 +1,43 @@
+{
+  "id": 7418,
+  "display_id": "JD127",
+  "title": "一箭穿心",
+  "description": "<p>赵晴儿在数轴上标了 N 个区间，每个区间表示一个敌人的巡逻范围。&quot;用最少的暗器，让每个敌人的巡逻范围里至少中一枚。&quot;</p><p>李少白想每个区间放一枚。赵晴儿摇头：&quot;贪心——按右端点从小到大排。第一枚暗器射在第一个区间的右端点，这样所有包含这个点的区间都中了。然后跳过这些区间，再射下一批。&quot;</p><p>&quot;选右端点是因为它最&#039;靠左&#039;——能覆盖尽可能多的后续区间。&quot;</p><p>给定 N 个闭区间，选择尽量少的点，使得每个区间内至少有一个点。</p>",
+  "input_description": "<p>第一行一个整数N（1≤N≤100000）。接下来N行每行两个整数a和b。</p>",
+  "output_description": "<p>一行，最少需要的点数。</p>",
+  "samples": [
+    {
+      "input": "3\n1 3\n2 4\n3 5",
+      "output": "1"
+    }
+  ],
+  "hint": "<p>按右端点排序，每次选当前区间的右端点，跳过所有包含该点的区间。</p><p><a href=\"https://www.acwing.com/problem/content/907/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 905 | JD127",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

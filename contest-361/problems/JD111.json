@@ -1,0 +1,43 @@
+{
+  "id": 7402,
+  "display_id": "JD111",
+  "title": "削铁如泥",
+  "description": "<p>梁嘉峰递给李少白两块铁牌：&quot;这次是减法。大数减大数，注意借位。&quot;</p><p>李少白接过一看，两个数都很长。他先比较了大小——如果被减数比减数小，结果就是负数，先交换再算。</p><p>&quot;像竖式减法一样，从最低位开始，不够减就向高位借1。&quot;梁嘉峰说，&quot;削铁如泥，一刃一刃来。&quot;</p><p>给定两个正整数，计算它们的差（结果可能为负数）。每个数不超过 100000 位。</p>",
+  "input_description": "<p>两行，每行一个正整数（不超过100000位）。</p>",
+  "output_description": "<p>一行，两数之差。</p>",
+  "samples": [
+    {
+      "input": "9876543210\n1234567890",
+      "output": "8641975320"
+    }
+  ],
+  "hint": "<p>先判断大小，大减小，从低位逐位减，处理借位。如果被减数小则结果加负号。</p><p><a href=\"https://www.acwing.com/problem/content/794/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 792 | JD111 | 第10章 千锤百炼",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

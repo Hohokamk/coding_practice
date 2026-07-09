@@ -1,0 +1,43 @@
+{
+  "id": 7387,
+  "display_id": "JD096",
+  "title": "空格替换",
+  "description": "<p>兵器阁的大门上刻着一行古文，但年代久远，字迹模糊，空格处尤其难以辨认。赵晴儿凑近看了看：&quot;这行字里夹了太多空格，密密麻麻的，根本看不清。&quot;</p><p>梁嘉峰说：&quot;古卷传输时，空格容易丢失。古人想了个办法——把每个空格替换成%20，这样既保留了间隔，又不会和真正的空白混淆。&quot;</p><p>&quot;你写一段程序，把这行古文里的所有空格替换成%20。&quot;</p>",
+  "input_description": "<p>一行字符串（长度不超过100）。</p>",
+  "output_description": "<p>替换空格为%20后的字符串。</p>",
+  "samples": [
+    {
+      "input": "Hello World",
+      "output": "Hello%20World"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/36/\" target=\"_blank\">原题链接</a></p><p>遍历字符串，遇到空格输出%20，否则输出原字符。</p>",
+  "source": "JD | JD096 | 第8章 百器图谱",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

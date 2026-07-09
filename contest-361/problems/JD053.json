@@ -1,0 +1,43 @@
+{
+  "id": 7344,
+  "display_id": "JD053",
+  "title": "完璧归宗",
+  "description": "<p>赵晴儿在沙盘上写下「完璧」二字：「完璧之数，等于它的所有真因子之和。譬如6=1+2+3。找到不超过N的所有完璧之数，以印证归宗之意。」</p>",
+  "input_description": "<p>一个整数N。</p>",
+  "output_description": "<p>每行输出一个不超过N的完全数（从小到大）。</p>",
+  "samples": [
+    {
+      "input": "30",
+      "output": "6\n28"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/727/\" target=\"_blank\">原题链接</a></p><p>对每个数找所有真因子求和，等于自身则是完全数。注意优化：枚举因子只需到 sqrt(X)，利用约数成对出现的性质。1 不是完全数。</p>",
+  "source": "JD | JD053 | 第4章 排兵布阵",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

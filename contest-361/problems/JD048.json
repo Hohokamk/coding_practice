@@ -1,0 +1,43 @@
+{
+  "id": 7339,
+  "display_id": "JD048",
+  "title": "二气相生",
+  "description": "<p>赵晴儿在沙盘上画出两道气旋：「阴阳二气，交替相生。第一气为0，第二气为1，此后每气皆为前二气之和。只用两个变量，算出第N气。」其中F(0)=0，F(1)=1，F(N)=F(N-1)+F(N-2)。</p>",
+  "input_description": "<p>一个整数N。</p>",
+  "output_description": "<p>一个整数，即第N个斐波那契数F(N)。</p>",
+  "samples": [
+    {
+      "input": "4",
+      "output": "3"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/743/\" target=\"_blank\">原题链接</a></p><p>两个变量滚动：a,b = b,a+b。</p>",
+  "source": "JD | JD048 | 第4章 排兵布阵",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

@@ -1,0 +1,47 @@
+{
+  "id": 7318,
+  "display_id": "JD027",
+  "title": "怪兽辨识",
+  "description": "<p>迷踪林外遇到一只怪兽。赵晴儿观察了三层特征来判断它的种类：<br />第一层：有脊椎（vertebrate）还是无脊椎（invertebrate）；<br />第二层：鸟类（bird）、哺乳类（mammal）、昆虫（insect）还是环节动物（annelid）；<br />第三层：食性——食肉（carnivore）、食草（herbivore）、杂食（omnivore）、吸血（hematophagous）。</p><p>以下是怪兽分类图谱：</p><pre style=\"font-family:monospace;background:#f5f5f5;padding:12px;border-radius:4px;line-height:1.6\">Level 1         Level 2        Level 3           Animal\n---------------------------------------------------------\n                +-- bird ------ carnivore ------- eagle（鹰）\n                |             +-- herbivore ------ dove（鸽）\nvertebrate -----+\n                |             +-- omnivore ------- man（人）\n                +-- mammal ----+\n                              +-- herbivore ------ cow（牛）\n\n                +-- insect ---- hematophagous ---- flea（跳蚤）\n                |             +-- herbivore ------ caterpillar（毛虫）\ninvertebrate ---+\n                |             +-- hematophagous ---- leech（水蛭）\n                +-- annelid --+\n                              +-- omnivore ------- earthworm（蚯蚓）\n</pre><p>根据输入的三层特征单词，输出对应的动物英文名称。</p>",
+  "input_description": "<p>三行，每行一个字符串，分别表示三层分类特征。</p>",
+  "output_description": "<p>输出对应的动物名称。</p>",
+  "samples": [
+    {
+      "input": "vertebrate\nmammal\nomnivore",
+      "output": "man"
+    },
+    {
+      "input": "vertebrate\nbird\ncarnivore",
+      "output": "eagle"
+    }
+  ],
+  "hint": "<p>三层嵌套 if-else：先判断第一层，再判断第二层，最后判断第三层。</p><p><a href=\"https://www.acwing.com/problem/content/672/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 670 | JD027 | 第2章 歧路逢生",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

@@ -1,0 +1,43 @@
+{
+  "id": 7388,
+  "display_id": "JD097",
+  "title": "再算斐波",
+  "description": "<p>赵晴儿在兵器阁的账本上翻到一串奇怪的数字：1, 1, 2, 3, 5, 8, 13, 21……</p><p>&quot;这是前辈铸剑师留下的排列规律，&quot;梁嘉峰说，&quot;每一柄新剑的重量都是前两柄之和。第1柄和第2柄都是1斤，第3柄就是1+1=2斤，第4柄是1+2=3斤……&quot;</p><p>&quot;上一章你用递归算过这个数列，但递归太慢了。这次用容器来存——把每一项都推进一个序列里，只保留最近两项，循环推进。&quot;</p><p>请帮赵晴儿算出第n柄剑的重量。</p>",
+  "input_description": "<p>一个整数n（0 ≤ n ≤ 90）。</p>",
+  "output_description": "<p>输出斐波那契数列第n项。</p>",
+  "samples": [
+    {
+      "input": "10",
+      "output": "55"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/21/\" target=\"_blank\">原题链接</a></p><p>两个变量a,b滚动：a,b = b,a+b。循环n次。</p>",
+  "source": "JD | JD097 | 第8章 百器图谱",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

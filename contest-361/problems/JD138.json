@@ -1,0 +1,43 @@
+{
+  "id": 7429,
+  "display_id": "JD138",
+  "title": "合帮并派",
+  "description": "<p>江湖上有N个门派，每个弟子属于一个门派。赵晴儿问：&quot;两个弟子是不是同门？&quot;梁嘉峰说：&quot;用并查集——合并两个门派用union，查询两个人是否同门用find。路径压缩后几乎O(1)。&quot;</p><p>给定N个元素和M个操作：合并两个集合，或查询两个元素是否在同一集合。</p>",
+  "input_description": "<p>第一行两个整数N和M。接下来M行，每行M 1 a b（合并a和b所在集合）或Q a b（查询a和b是否同属一个集合）。</p>",
+  "output_description": "<p>对每个Q操作输出一行Yes或No。</p>",
+  "samples": [
+    {
+      "input": "4 5\nM 1 2\nQ 1 2\nM 2 3\nQ 1 3\nQ 1 4",
+      "output": "Yes\nYes\nNo"
+    }
+  ],
+  "hint": "<p>并查集：find时路径压缩，union时合并两棵树。</p><p><a href=\"https://www.acwing.com/problem/content/838/\" target=\"_blank\">原题链接</a></p>",
+  "source": "AcWing 836 | JD138",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

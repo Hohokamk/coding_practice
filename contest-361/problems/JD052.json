@@ -1,0 +1,43 @@
+{
+  "id": 7343,
+  "display_id": "JD052",
+  "title": "剑列纵横",
+  "description": "<p>赵晴儿又指向剑阵的其中一列：「纵览此列，算其力量。」李少白沿着列的方向逐行检视。</p>",
+  "input_description": "<p>第一行一个整数C（0~11，表示列号）。第二行一个字符（S或M）。接下来12行，每行12个浮点数。</p>",
+  "output_description": "<p>输出该列的和或平均值，保留一位小数。</p>",
+  "samples": [
+    {
+      "input": "1\nS\n-29.7 94.5 43.8 3.7 68.1 19.9 23.4 -0.3 -85.3 57.3 89.7 36.0\n...",
+      "output": "199.5"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/724/\" target=\"_blank\">原题链接</a></p><p>遍历所有行取指定列元素。</p>",
+  "source": "JD | JD052 | 第4章 排兵布阵",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

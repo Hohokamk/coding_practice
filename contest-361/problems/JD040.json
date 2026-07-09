@@ -1,0 +1,43 @@
+{
+  "id": 7331,
+  "display_id": "JD040",
+  "title": "九九归真",
+  "description": "<p>赵晴儿教李少白背乘法口诀。她写下一个数N，让李少白从1乘到10，按格式列出N的乘法表：「i x N = i*N」。</p>",
+  "input_description": "<p>一个整数N。</p>",
+  "output_description": "<p>10行，格式为 `i x N = i*N`。</p>",
+  "samples": [
+    {
+      "input": "140",
+      "output": "1 x 140 = 140\n2 x 140 = 280\n3 x 140 = 420\n4 x 140 = 560\n5 x 140 = 700\n6 x 140 = 840\n7 x 140 = 980\n8 x 140 = 1120\n9 x 140 = 1260\n10 x 140 = 1400"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/720/\" target=\"_blank\">原题链接</a></p><p>for循环从1到10，每次输出i x N = i*N。</p>",
+  "source": "AcWing ??? | JD040 | 第3章 千回百转",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

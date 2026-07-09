@@ -1,0 +1,43 @@
+{
+  "id": 7358,
+  "display_id": "JD067",
+  "title": "古卷测长",
+  "description": "<p>梁嘉峰递给李少白一卷竹简：「上面刻着一行字，告诉我它有多长。」</p>",
+  "input_description": "<p>一行字符串（长度不超过100），可能包含空格。</p>",
+  "output_description": "<p>输出字符串的实际长度。</p>",
+  "samples": [
+    {
+      "input": "Hello World",
+      "output": "11"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/762/\" target=\"_blank\">原题链接</a></p><p>读入一行字符串（含空格），输出其长度。</p>",
+  "source": "JD | JD067 | 第6章 古卷密文",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}

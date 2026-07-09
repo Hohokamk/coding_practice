@@ -1,0 +1,43 @@
+{
+  "id": 7379,
+  "display_id": "JD088",
+  "title": "印数成招",
+  "description": "<p>宗门兵器库盘点时，赵晴儿需要把清单上的前几件兵器名称逐一打印出来。清单上有n件兵器，但她只需要前size件。</p><p>&quot;每次都手动抄写太蠢了，&quot;赵晴儿说，&quot;写一个函数，传入数组和size，把前size个元素打印出来。&quot;</p>",
+  "input_description": "<p>第一行两个整数n和size（数组长度和待打印个数，size ≤ n）。第二行n个整数。</p>",
+  "output_description": "<p>输出数组的前size个元素，空格隔开，末尾换行。</p>",
+  "samples": [
+    {
+      "input": "5 3\n1 2 3 4 5",
+      "output": "1 2 3"
+    }
+  ],
+  "hint": "<p><a href=\"https://www.acwing.com/problem/content/814/\" target=\"_blank\">原题链接</a></p><p>函数内遍历数组前size个元素，空格隔开输出。</p>",
+  "source": "JD | JD088 | 第7章 以招创招",
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "difficulty": "Mid",
+  "rule_type": "OI",
+  "languages": [
+    "C",
+    "C++",
+    "Java",
+    "Python3"
+  ],
+  "template": {},
+  "tags": [],
+  "share_submission": false,
+  "created_by": {
+    "id": 9,
+    "username": "xmucby",
+    "real_name": null
+  },
+  "can_download_test_case": false,
+  "my_status": null,
+  "is_exam": false,
+  "test_case_manifest": null
+}
